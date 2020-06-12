@@ -20,15 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b82a0ea-9822-4aea-872e-c29f63c24cef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/AimTextureController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/AimTextureController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/DestinationPoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/DestinationPoint.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/Enemy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/Enemy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/EnemyData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/EnemyData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/SpawnZone.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/SpawnZone.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/World.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/World/EnemySpawnController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/World/EnemySpawnController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestFightScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestFightScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Fight/CannonSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Fight/CannonSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionComponent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Installers/FightInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Installers/FightInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +54,29 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Installers/ProjectInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Common/InputHandlingBlocker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/AimTextureController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/DestinationPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstallerBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/RotationComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Installers/FightInstaller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/0d/df5d91e9/Random.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/SpawnZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ReloadComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/NavMeshComponents/Editor/NavMeshAssetManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Installers/ProjectInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/EnemyData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstallerBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/World/EnemySpawnController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Common/InputSource.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Func.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03035303-2B91-4045-A0B9-6BEA329B98D3/52/f2ce2672/NavMesh.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -62,16 +86,21 @@
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/RotationComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ReloadComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Common/InputSource.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Installers/ProjectInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Installers/FightInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Common/InputHandlingBlocker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/AimTextureController.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/EnemyData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/SpawnZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/World/EnemySpawnController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/DestinationPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Installers/FightInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/Enemy.cs" />
       </list>
     </option>
   </component>
@@ -113,7 +142,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591960456522</updated>
-      <workItem from="1591960466650" duration="9164000" />
+      <workItem from="1591960466650" duration="14127000" />
     </task>
     <servers />
   </component>
@@ -134,6 +163,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="462" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591978231169">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="462" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1591978231169" />
     <state width="1493" height="288" key="GridCell.Tab.0.bottom" timestamp="1591972824636">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -198,27 +231,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="288" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1591972824638" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591967329840">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591982214439">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591967329840" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591982214439" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs</url>
-          <line>43</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" initialLine="40">
-            <startOffsets>
-              <option value="1654" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1716" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs</url>
           <line>31</line>

@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxDistance: 8
   _acceleration: 1
-  _reloadSeconds: 0.1
+  _reloadSeconds: 1
+  _explosionDelayMin: 0
+  _explosionDelayMax: 0.3

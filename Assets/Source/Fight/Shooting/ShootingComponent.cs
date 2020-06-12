@@ -22,7 +22,7 @@ namespace Source.Fight
             _cannonTransform = cannonTransform;
             _reloadComponent = new ReloadComponent(_settings);
             _powerChargingComponent = new ShotPowerChargingComponent(_settings, aimImage);
-            _explosionComponent = new ExplosionComponent(explosionObject, instantiator);
+            _explosionComponent = new ExplosionComponent(explosionObject, instantiator, _settings);
         }
 
         public void Update()
@@ -47,7 +47,7 @@ namespace Source.Fight
                 Debug.LogError($"Firing with power {power}");
                 
                 var shotPosition = GetShotPositionForPower(power);
-                _explosionComponent.SpawnExplosionAt(shotPosition);
+                _explosionComponent.SpawnExplosionAt(shotPosition, power);
             }
         }
 
