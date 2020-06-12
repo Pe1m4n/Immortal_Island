@@ -777,16 +777,19 @@
           </e>
           <e p="Fight" t="Include">
             <e p="Enemies" t="Include">
+              <e p="AnimationComponent.cs" t="Include" />
               <e p="DestinationPoint.cs" t="Include" />
               <e p="Enemy.cs" t="Include" />
               <e p="EnemyData.cs" t="Include" />
               <e p="SpawnZone.cs" t="Include" />
+              <e p="StunController.cs" t="Include" />
             </e>
             <e p="Shooting" t="Include">
               <e p="AimTextureController.cs" t="Include" />
               <e p="CannonComponent.cs" t="Include" />
               <e p="CannonSettings.cs" t="Include" />
               <e p="ExplosionComponent.cs" t="Include" />
+              <e p="ExplosionData.cs" t="Include" />
               <e p="ExplosionObject.cs" t="Include" />
               <e p="ReloadComponent.cs" t="Include" />
               <e p="RotationComponent.cs" t="Include" />

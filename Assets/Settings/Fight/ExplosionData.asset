@@ -9,8 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22c1653963ef41b8aaa511494956faee, type: 3}
-  m_Name: TestEnemyData
+  m_Script: {fileID: 11500000, guid: cb2016f3073d4a279fb9537bace80b03, type: 3}
+  m_Name: ExplosionData
   m_EditorClassIdentifier: 
-  _name: TestEnemy
-  _prefab: {fileID: 403519286100418314, guid: 90fcd2812a5eef544927e1bc93b92fc8, type: 3}
+  _explosionStunRadius: 0.5
+  _explosionMoveRadius: 0.75
+  _throwPowerMax: 100
+  _throwPowerMin: 10
+  _movePower: 0.9
+  _stunDuration: 3
