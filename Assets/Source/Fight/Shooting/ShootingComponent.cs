@@ -43,8 +43,6 @@ namespace Source.Fight
             {
                 var power = _powerChargingComponent.StopChargingAndGetValue();
                 _reloadComponent.OnShot();
-
-                Debug.LogError($"Firing with power {power}");
                 
                 var shotPosition = GetShotPositionForPower(power);
                 _explosionComponent.SpawnExplosionAt(shotPosition, power);

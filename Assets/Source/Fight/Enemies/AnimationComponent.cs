@@ -14,16 +14,17 @@ namespace Source.Fight.Enemies
             _animator = animator;
         }
 
-        public void StopAnimations()
+        public void SetAnimationsActive(bool active)
         {
-            _animator.SetTrigger(STOP_ANIMATIONS_TRIGGER);
-            _animator.enabled = false;
-        }
-
-        public void GetUp()
-        {
-            _animator.enabled = true;
-            _animator.SetTrigger(GET_UP_TRIGGER);
+            _animator.enabled = active;
+            if (!active)
+            {
+                _animator.SetTrigger(STOP_ANIMATIONS_TRIGGER);
+            }
+            else
+            {
+                _animator.SetTrigger(GET_UP_TRIGGER);
+            }
         }
     }
 }

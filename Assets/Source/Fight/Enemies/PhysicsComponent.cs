@@ -6,16 +6,23 @@ namespace Source.Fight.Enemies
     public class PhysicsComponent
     {
         private readonly IEnumerable<Rigidbody> _rigidbodies;
-        
+        private readonly AnimationComponent _animationComponent;
+        private readonly NavigationComponent _navigationComponent;
+
         public bool IsRagdollActive { get; private set; }
 
-        public PhysicsComponent(IEnumerable<Rigidbody> rigidbodies)
+        public PhysicsComponent(IEnumerable<Rigidbody> rigidbodies, AnimationComponent animationComponent,
+            NavigationComponent navigationComponent)
         {
             _rigidbodies = rigidbodies;
+            _animationComponent = animationComponent;
+            _navigationComponent = navigationComponent;
         }
 
         public void SetRagdollActive(bool active)
         {
+            _animationComponent.SetAnimationsActive(!active);
+            _navigationComponent.SetNavigationActive(!active);
             foreach (var rb in _rigidbodies)
             {
                 rb.isKinematic = !active;
