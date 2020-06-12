@@ -20,18 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b82a0ea-9822-4aea-872e-c29f63c24cef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/AnimationBehavour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/AnimationBehavour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/NavigationComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/NavigationComponent.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fight/Enemies/Ragdoll Skeleton 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fight/Enemies/Ragdoll Skeleton 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/AnimationComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/AnimationComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/PhysicsComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/PhysicsComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/StunController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/StunController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestFightScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestFightScene.unity.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +83,6 @@
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/EnemyData.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/SpawnZone.cs" />
@@ -101,11 +93,12 @@
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionData.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/PhysicsComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/StunController.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/NavigationComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/AnimationComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/AnimationBehavour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/StunController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" />
       </list>
     </option>
   </component>
