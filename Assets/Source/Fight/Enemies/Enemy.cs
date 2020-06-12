@@ -11,28 +11,32 @@ namespace Source.Fight.Enemies
     {
         [SerializeField] private NavMeshAgent _navMeshAgent;
         [SerializeField] private Animator _animator;
+        [SerializeField] private Transform _syncTransform;
 
         public AnimationComponent AnimationComponent { get; private set; }
         public StunComponent StunComponent { get; private set; }
         public PhysicsComponent PhysicsComponent { get; private set; }
+        public NavigationComponent NavigationComponent { get; private set; }
 
         private IEnumerable<DestinationPoint> _destinations;
 
         [Inject]
         public void SetUp(IEnumerable<DestinationPoint> destinations)
         {
-            _destinations = destinations;
             AnimationComponent = new AnimationComponent(_animator);
-            PhysicsComponent = new PhysicsComponent(gameObject.GetComponentsInChildren<Rigidbody>());
-            StunComponent = new StunComponent(_navMeshAgent, AnimationComponent, PhysicsComponent);
+            NavigationComponent = new NavigationComponent(_navMeshAgent, destinations, transform, _syncTransform);
+            PhysicsComponent = new PhysicsComponent(gameObject.GetComponentsInChildren<Rigidbody>(), AnimationComponent, NavigationComponent);
+            StunComponent = new StunComponent(PhysicsComponent);
         }
         
         private void Start()
         {
-            var rnd = new System.Random();
-            var randomDestination =  _destinations.OrderBy(x => rnd.Next()).First();
-            transform.LookAt(randomDestination.transform.position);
-            _navMeshAgent.SetDestination(randomDestination.transform.position);
+            NavigationComponent.GoToDestination();
+        }
+
+        private void Update()
+        {
+            StunComponent.Tick();
         }
     }
 }
