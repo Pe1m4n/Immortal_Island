@@ -17,10 +17,12 @@ namespace Source.Fight.Enemies
         public void StopAnimations()
         {
             _animator.SetTrigger(STOP_ANIMATIONS_TRIGGER);
+            _animator.enabled = false;
         }
 
         public void GetUp()
         {
+            _animator.enabled = true;
             _animator.SetTrigger(GET_UP_TRIGGER);
         }
     }

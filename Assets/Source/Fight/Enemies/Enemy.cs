@@ -14,6 +14,7 @@ namespace Source.Fight.Enemies
 
         public AnimationComponent AnimationComponent { get; private set; }
         public StunComponent StunComponent { get; private set; }
+        public PhysicsComponent PhysicsComponent { get; private set; }
 
         private IEnumerable<DestinationPoint> _destinations;
 
@@ -22,7 +23,8 @@ namespace Source.Fight.Enemies
         {
             _destinations = destinations;
             AnimationComponent = new AnimationComponent(_animator);
-            StunComponent = new StunComponent(_navMeshAgent, AnimationComponent);
+            PhysicsComponent = new PhysicsComponent(gameObject.GetComponentsInChildren<Rigidbody>());
+            StunComponent = new StunComponent(_navMeshAgent, AnimationComponent, PhysicsComponent);
         }
         
         private void Start()
