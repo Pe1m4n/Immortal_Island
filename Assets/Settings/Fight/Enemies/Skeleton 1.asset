@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22c1653963ef41b8aaa511494956faee, type: 3}
   m_Name: Skeleton 1
   m_EditorClassIdentifier: 
-  _name: 
-  _prefab: {fileID: 0}
+  _name: Skeleton 1
+  _prefab: {fileID: -7478401768663978437, guid: c747d555f4de134419f58f1e74e3acc8,
+    type: 3}
