@@ -20,56 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b82a0ea-9822-4aea-872e-c29f63c24cef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Common/InputHandlingBlocker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Common/InputHandlingBlocker.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Common/InputSource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Common/InputSource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionObject.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ReloadComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ReloadComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/RotationComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/RotationComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Installers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Installers/FightInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Installers/FightInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Installers/ProjectInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Installers/ProjectInstaller.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/FX_Materials/Background_Islands.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/FX_Materials/Background_Islands.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/FX_Materials/Blood_FX.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/FX_Materials/Blood_FX.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/FX_Materials/Cloud.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/FX_Materials/Cloud.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/FX_Materials/PolygonPirates_Material_Emission.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/FX_Materials/PolygonPirates_Material_Emission.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/FX_Materials/RainWater_FX.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/FX_Materials/RainWater_FX.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/FX_Materials/Water.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/FX_Materials/Water.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Characters_Material_01_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Characters_Material_01_A.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_01_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_01_A.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_01_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_01_B.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_01_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_01_C.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_02_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_02_A.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_02_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_02_B.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_02_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_02_C.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_03_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_03_A.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_03_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_03_B.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_03_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_03_C.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_04_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_04_A.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_04_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_04_B.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_04_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Materials/PolygonPirates_Material_04_C.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Models/Materials/Texture_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Models/Materials/Texture_01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonPirates/Models/Materials/Texture_01_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonPirates/Models/Materials/Texture_01_A.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestFightScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestFightScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Common/InputHandlingBlocker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Common/InputHandlingBlocker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/ProjectContext.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Resources/ProjectContext.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,17 +59,17 @@
         <option value="$PROJECT_DIR$/Assets/Source/Fight/CannonComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/AimingAccelerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/RotationComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ReloadComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Common/InputSource.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Common/InputHandlingBlocker.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Installers/ProjectInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Installers/FightInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Common/InputHandlingBlocker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" />
       </list>
     </option>
   </component>
@@ -122,6 +80,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502052" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3002736" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -134,10 +94,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="134924">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="134924" />
       <method v="2" />
     </configuration>
   </component>
@@ -151,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591960456522</updated>
-      <workItem from="1591960466650" duration="6144000" />
+      <workItem from="1591960466650" duration="7689000" />
     </task>
     <servers />
   </component>
@@ -172,9 +132,105 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591964439365">
+    <state width="1493" height="288" key="GridCell.Tab.0.bottom" timestamp="1591967988598">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591964439365" />
+    <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591967988598" />
+    <state width="1493" height="288" key="GridCell.Tab.0.center" timestamp="1591967988598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591967988598" />
+    <state width="1493" height="288" key="GridCell.Tab.0.left" timestamp="1591967988598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591967988598" />
+    <state width="1493" height="288" key="GridCell.Tab.0.right" timestamp="1591967988598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591967988598" />
+    <state width="1493" height="288" key="GridCell.Tab.1.bottom" timestamp="1591967992285">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591967992285" />
+    <state width="1493" height="288" key="GridCell.Tab.1.center" timestamp="1591967992285">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591967992285" />
+    <state width="1493" height="288" key="GridCell.Tab.1.left" timestamp="1591967992285">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591967992285" />
+    <state width="1493" height="288" key="GridCell.Tab.1.right" timestamp="1591967992285">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591967992285" />
+    <state width="1493" height="288" key="GridCell.Tab.2.bottom" timestamp="1591967988524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
+    <state width="1493" height="288" key="GridCell.Tab.2.center" timestamp="1591967988524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
+    <state width="1493" height="288" key="GridCell.Tab.2.left" timestamp="1591967988524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
+    <state width="1493" height="288" key="GridCell.Tab.2.right" timestamp="1591967988524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
+    <state width="1493" height="288" key="GridCell.Tab.3.bottom" timestamp="1591967988524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
+    <state width="1493" height="288" key="GridCell.Tab.3.center" timestamp="1591967988524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
+    <state width="1493" height="288" key="GridCell.Tab.3.left" timestamp="1591967988524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
+    <state width="1493" height="288" key="GridCell.Tab.3.right" timestamp="1591967988524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591967329840">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591967329840" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs</url>
+          <line>42</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" initialLine="40">
+            <startOffsets>
+              <option value="1606" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1668" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs</url>
+          <line>28</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" initialLine="28">
+            <startOffsets>
+              <option value="589" />
+            </startOffsets>
+            <endOffsets>
+              <option value="646" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

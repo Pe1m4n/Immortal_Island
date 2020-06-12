@@ -26,6 +26,8 @@ namespace Source.Fight
 
         public void Update()
         {
+            _powerChargingComponent.Update();
+            
             if (!_inputHandlingBlocker.IsInputSourceAllowed(InputSource.Cannon) || !_reloadComponent.CanShoot)
             {
                 return;
@@ -36,21 +38,21 @@ namespace Source.Fight
                 _powerChargingComponent.StartCharging();
             }
 
-            if (Input.GetKeyUp(KeyCode.Mouse1))
+            if (Input.GetKeyUp(KeyCode.Mouse0) && _powerChargingComponent.IsCharging)
             {
                 var power = _powerChargingComponent.StopChargingAndGetValue();
                 _reloadComponent.OnShot();
 
+                Debug.LogError($"Firing with power {power}");
+                
                 var shotPosition = GetShotPositionForPower(power);
                 _explosionComponent.SpawnExplosionAt(shotPosition);
             }
-            
-            _powerChargingComponent.Update();
         }
 
         private Vector3 GetShotPositionForPower(float power)
         {
-            return _cannonTransform.forward.normalized * _settings.MaxDistance * power;
+            return _cannonTransform.position + (_cannonTransform.forward.normalized * _settings.MaxDistance * power);
         }
     }
 }

@@ -7,7 +7,7 @@ namespace Source.Fight
         private readonly CannonSettings _settings;
 
         private float _currentPower;
-        private bool _isCharging;
+        public bool IsCharging { get; private set; }
 
         public ShotPowerChargingComponent(CannonSettings settings)
         {
@@ -16,25 +16,25 @@ namespace Source.Fight
         
         public void StartCharging()
         {
-            _isCharging = true;
+            IsCharging = true;
         }
 
         public void Update()
         {
-            if (!_isCharging)
+            if (!IsCharging)
             {
                 return;
             }
 
-            _currentPower += Mathf.Clamp01(Time.deltaTime * _settings.Acceleration);
+            _currentPower += Time.deltaTime * _settings.Acceleration;
         }
 
         public float StopChargingAndGetValue()
         {
-            var temp = _currentPower;
-            _isCharging = false;
+            var temp = Mathf.Clamp01(_currentPower);
+            IsCharging = false;
             _currentPower = 0f;
-            return _currentPower;
+            return temp;
         }
     }
 }

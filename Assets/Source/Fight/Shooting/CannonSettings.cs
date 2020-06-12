@@ -2,7 +2,7 @@
 
 namespace Source.Fight
 {
-    [CreateAssetMenu(fileName = "CannonSettings", menuName = "ImmortalIsland/", order = 0)]
+    [CreateAssetMenu(fileName = "CannonSettings", menuName = "Immortal_Island/CannonSetting", order = 0)]
     public class CannonSettings : ScriptableObject
     {
         [SerializeField] private float _maxDistance;
