@@ -1,5 +1,6 @@
 ﻿using Source.Common;
 using UnityEngine;
+using UnityEngine.UI;
 using Zenject;
 
 namespace Source.Fight
@@ -14,13 +15,13 @@ namespace Source.Fight
         private readonly ExplosionComponent _explosionComponent;
 
         public ShootingComponent(CannonSettings settings, InputHandlingBlocker inputHandlingBlocker,
-            Transform cannonTransform, ExplosionObject explosionObject, IInstantiator instantiator)
+            Transform cannonTransform, ExplosionObject explosionObject, IInstantiator instantiator, Image aimImage)
         {
             _settings = settings;
             _inputHandlingBlocker = inputHandlingBlocker;
             _cannonTransform = cannonTransform;
             _reloadComponent = new ReloadComponent(_settings);
-            _powerChargingComponent = new ShotPowerChargingComponent(_settings);
+            _powerChargingComponent = new ShotPowerChargingComponent(_settings, aimImage);
             _explosionComponent = new ExplosionComponent(explosionObject, instantiator);
         }
 

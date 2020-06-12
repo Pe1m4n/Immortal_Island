@@ -20,14 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b82a0ea-9822-4aea-872e-c29f63c24cef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/AimTextureController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/AimTextureController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestFightScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestFightScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Common/InputHandlingBlocker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Common/InputHandlingBlocker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/ProjectContext.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Resources/ProjectContext.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Installers/ProjectInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Common/InputHandlingBlocker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/AimTextureController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstallerBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -65,11 +66,12 @@
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Installers/ProjectInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Installers/FightInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Common/InputHandlingBlocker.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/AimTextureController.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" />
       </list>
     </option>
   </component>
@@ -111,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591960456522</updated>
-      <workItem from="1591960466650" duration="7689000" />
+      <workItem from="1591960466650" duration="9164000" />
     </task>
     <servers />
   </component>
@@ -132,70 +134,70 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom" timestamp="1591967988598">
+    <state width="1493" height="288" key="GridCell.Tab.0.bottom" timestamp="1591972824636">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591967988598" />
-    <state width="1493" height="288" key="GridCell.Tab.0.center" timestamp="1591967988598">
+    <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591972824636" />
+    <state width="1493" height="288" key="GridCell.Tab.0.center" timestamp="1591972824636">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591967988598" />
-    <state width="1493" height="288" key="GridCell.Tab.0.left" timestamp="1591967988598">
+    <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591972824636" />
+    <state width="1493" height="288" key="GridCell.Tab.0.left" timestamp="1591972824636">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591967988598" />
-    <state width="1493" height="288" key="GridCell.Tab.0.right" timestamp="1591967988598">
+    <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591972824636" />
+    <state width="1493" height="288" key="GridCell.Tab.0.right" timestamp="1591972824636">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591967988598" />
-    <state width="1493" height="288" key="GridCell.Tab.1.bottom" timestamp="1591967992285">
+    <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591972824636" />
+    <state width="1493" height="288" key="GridCell.Tab.1.bottom" timestamp="1591972824637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591967992285" />
-    <state width="1493" height="288" key="GridCell.Tab.1.center" timestamp="1591967992285">
+    <state width="1493" height="288" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591972824637" />
+    <state width="1493" height="288" key="GridCell.Tab.1.center" timestamp="1591972824637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591967992285" />
-    <state width="1493" height="288" key="GridCell.Tab.1.left" timestamp="1591967992285">
+    <state width="1493" height="288" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591972824637" />
+    <state width="1493" height="288" key="GridCell.Tab.1.left" timestamp="1591972824636">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591967992285" />
-    <state width="1493" height="288" key="GridCell.Tab.1.right" timestamp="1591967992285">
+    <state width="1493" height="288" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591972824636" />
+    <state width="1493" height="288" key="GridCell.Tab.1.right" timestamp="1591972824637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591967992285" />
-    <state width="1493" height="288" key="GridCell.Tab.2.bottom" timestamp="1591967988524">
+    <state width="1493" height="288" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591972824637" />
+    <state width="1493" height="288" key="GridCell.Tab.2.bottom" timestamp="1591972824637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
-    <state width="1493" height="288" key="GridCell.Tab.2.center" timestamp="1591967988524">
+    <state width="1493" height="288" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591972824637" />
+    <state width="1493" height="288" key="GridCell.Tab.2.center" timestamp="1591972824637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
-    <state width="1493" height="288" key="GridCell.Tab.2.left" timestamp="1591967988524">
+    <state width="1493" height="288" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1591972824637" />
+    <state width="1493" height="288" key="GridCell.Tab.2.left" timestamp="1591972824637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
-    <state width="1493" height="288" key="GridCell.Tab.2.right" timestamp="1591967988524">
+    <state width="1493" height="288" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1591972824637" />
+    <state width="1493" height="288" key="GridCell.Tab.2.right" timestamp="1591972824637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
-    <state width="1493" height="288" key="GridCell.Tab.3.bottom" timestamp="1591967988524">
+    <state width="1493" height="288" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1591972824637" />
+    <state width="1493" height="288" key="GridCell.Tab.3.bottom" timestamp="1591972824638">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
-    <state width="1493" height="288" key="GridCell.Tab.3.center" timestamp="1591967988524">
+    <state width="1493" height="288" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591972824638" />
+    <state width="1493" height="288" key="GridCell.Tab.3.center" timestamp="1591972824638">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
-    <state width="1493" height="288" key="GridCell.Tab.3.left" timestamp="1591967988524">
+    <state width="1493" height="288" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1591972824638" />
+    <state width="1493" height="288" key="GridCell.Tab.3.left" timestamp="1591972824637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
-    <state width="1493" height="288" key="GridCell.Tab.3.right" timestamp="1591967988524">
+    <state width="1493" height="288" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1591972824637" />
+    <state width="1493" height="288" key="GridCell.Tab.3.right" timestamp="1591972824638">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
+    <state width="1493" height="288" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1591972824638" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591967329840">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -206,26 +208,26 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs</url>
-          <line>42</line>
+          <line>43</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" initialLine="40">
             <startOffsets>
-              <option value="1606" />
+              <option value="1654" />
             </startOffsets>
             <endOffsets>
-              <option value="1668" />
+              <option value="1716" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs</url>
-          <line>28</line>
+          <line>31</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" initialLine="28">
             <startOffsets>
-              <option value="589" />
+              <option value="751" />
             </startOffsets>
             <endOffsets>
-              <option value="646" />
+              <option value="815" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />

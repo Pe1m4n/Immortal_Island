@@ -481,6 +481,7 @@
           </e>
           <e p="Fight" t="Include">
             <e p="Shooting" t="Include">
+              <e p="AimTextureController.cs" t="Include" />
               <e p="CannonComponent.cs" t="Include" />
               <e p="CannonSettings.cs" t="Include" />
               <e p="ExplosionComponent.cs" t="Include" />
