@@ -1316,7 +1316,7 @@ GameObject:
   - component: {fileID: 8993851095052823769}
   - component: {fileID: 8993851095062468625}
   m_Layer: 0
-  m_Name: _Main Charecter 1
+  m_Name: Ragdoll Skeleton 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1348,7 +1348,7 @@ Animator:
   m_GameObject: {fileID: 8993851095053027069}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 409520c9226982345a49c9803624f208, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5110852c40ca081469e1db7b29f2a529, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
