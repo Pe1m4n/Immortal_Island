@@ -781,6 +781,8 @@
               <e p="DestinationPoint.cs" t="Include" />
               <e p="Enemy.cs" t="Include" />
               <e p="EnemyData.cs" t="Include" />
+              <e p="ExplosionArgs.cs" t="Include" />
+              <e p="PhysicsComponent.cs" t="Include" />
               <e p="SpawnZone.cs" t="Include" />
               <e p="StunController.cs" t="Include" />
             </e>

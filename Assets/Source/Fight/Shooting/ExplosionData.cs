@@ -13,6 +13,7 @@ namespace Source.Fight
         [SerializeField] private float _movePower;
         
         [SerializeField] private float _stunDuration;
+        [SerializeField] private float _upwardsForce;
 
         public float ExplosionStunRadius => _explosionStunRadius;
         public float ExplosionMoveRadius => _explosionMoveRadius;
@@ -21,5 +22,6 @@ namespace Source.Fight
         public float MovePower => _movePower;
 
         public float StunDuration => _stunDuration;
+        public float UpwardsForce => _upwardsForce;
     }
 }

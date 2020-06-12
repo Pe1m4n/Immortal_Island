@@ -3685,6 +3685,7 @@ GameObject:
   - component: {fileID: 933321553267969694}
   - component: {fileID: -8648172652238999070}
   - component: {fileID: 3449457237195293353}
+  - component: {fileID: 4021040702154105899}
   m_Layer: 0
   m_Name: _Main Charecter
   m_TagString: Untagged
@@ -3754,6 +3755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _navMeshAgent: {fileID: 3449457237195293353}
+  _animator: {fileID: 933321553267969694}
 --- !u!195 &3449457237195293353
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3776,6 +3778,22 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!54 &4021040702154105899
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933321553260630130}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &933321553260632334
 GameObject:
   m_ObjectHideFlags: 0

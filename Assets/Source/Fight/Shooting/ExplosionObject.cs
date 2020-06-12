@@ -24,7 +24,7 @@ namespace Source.Fight
 
             var moveTargets = GetEnemies(moveColliders);
             
-            Stun(GetEnemies(stunColliders));
+            Stun(GetEnemies(stunColliders), transform.position);
         }
 
         private IEnumerable<Enemy> GetEnemies(IEnumerable<Collider> colliders)
@@ -51,11 +51,15 @@ namespace Source.Fight
             }
         }
 
-        private void Stun(IEnumerable<Enemy> enemies)
+        private void Stun(IEnumerable<Enemy> enemies, Vector3 position)
         {
             foreach (var enemy in enemies)
             {
-                enemy.StunComponent.StunForSeconds(_explosionData.StunDuration);
+                enemy.StunComponent.StunForSeconds(_explosionData.StunDuration, new ExplosionArgs(
+                    position,
+                    _explosionData.ThrowPowerMax,
+                    _explosionData.ExplosionStunRadius,
+                    _explosionData.UpwardsForce));
             }
         }
         

@@ -18,3 +18,4 @@ MonoBehaviour:
   _throwPowerMin: 10
   _movePower: 0.9
   _stunDuration: 3
+  _upwardsForce: 2
