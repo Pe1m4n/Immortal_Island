@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb2016f3073d4a279fb9537bace80b03, type: 3}
+  m_Name: ExplosionData
+  m_EditorClassIdentifier: 
+  _explosionStunRadius: 0.5
+  _explosionMoveRadius: 0.75
+  _throwPowerMax: 100
+  _throwPowerMin: 10
+  _movePower: 0.9
+  _stunDuration: 3

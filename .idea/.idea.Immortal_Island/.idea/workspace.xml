@@ -20,15 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b82a0ea-9822-4aea-872e-c29f63c24cef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/AnimationComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/AnimationComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/StunController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/StunController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionData.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Immortal_Island/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestFightScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestFightScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Common/InputHandlingBlocker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Common/InputHandlingBlocker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/ProjectContext.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Resources/ProjectContext.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fight/Shooting/Explosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fight/Shooting/Explosion.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Fight/Enemies/TestEnemyData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Fight/Enemies/TestEnemyData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionObject.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +44,33 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Installers/ProjectInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Common/InputHandlingBlocker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/AimTextureController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/DestinationPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/StunController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstallerBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/RotationComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Installers/FightInstaller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/0d/df5d91e9/Random.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/SpawnZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ReloadComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/NavMeshComponents/Editor/NavMeshAssetManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Installers/ProjectInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/EnemyData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstallerBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/World/EnemySpawnController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/AnimationComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Common/InputSource.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Func.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03035303-2B91-4045-A0B9-6BEA329B98D3/52/f2ce2672/NavMesh.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E98ED036-8295-432E-8C11-E52D6243EE11/f4/65bea32f/Transform.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -61,15 +80,24 @@
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/RotationComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ReloadComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Common/InputSource.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Installers/ProjectInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Installers/FightInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Common/InputHandlingBlocker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/AimTextureController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/EnemyData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/SpawnZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/World/EnemySpawnController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/DestinationPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Installers/FightInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/AnimationComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/StunController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionObject.cs" />
       </list>
     </option>
   </component>
@@ -86,6 +114,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -111,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591960456522</updated>
-      <workItem from="1591960466650" duration="7689000" />
+      <workItem from="1591960466650" duration="17237000" />
     </task>
     <servers />
   </component>
@@ -132,103 +161,98 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom" timestamp="1591967988598">
+    <state x="462" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591978231169">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591967988598" />
-    <state width="1493" height="288" key="GridCell.Tab.0.center" timestamp="1591967988598">
+    <state x="462" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1591978231169" />
+    <state width="1493" height="288" key="GridCell.Tab.0.bottom" timestamp="1591987592697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591967988598" />
-    <state width="1493" height="288" key="GridCell.Tab.0.left" timestamp="1591967988598">
+    <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591987592697" />
+    <state width="1493" height="288" key="GridCell.Tab.0.center" timestamp="1591987592697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591967988598" />
-    <state width="1493" height="288" key="GridCell.Tab.0.right" timestamp="1591967988598">
+    <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591987592697" />
+    <state width="1493" height="288" key="GridCell.Tab.0.left" timestamp="1591987592697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591967988598" />
-    <state width="1493" height="288" key="GridCell.Tab.1.bottom" timestamp="1591967992285">
+    <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591987592697" />
+    <state width="1493" height="288" key="GridCell.Tab.0.right" timestamp="1591987592697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591967992285" />
-    <state width="1493" height="288" key="GridCell.Tab.1.center" timestamp="1591967992285">
+    <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591987592697" />
+    <state width="1493" height="288" key="GridCell.Tab.1.bottom" timestamp="1591987596876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591967992285" />
-    <state width="1493" height="288" key="GridCell.Tab.1.left" timestamp="1591967992285">
+    <state width="1493" height="288" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591987596876" />
+    <state width="1493" height="288" key="GridCell.Tab.1.center" timestamp="1591987596876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591967992285" />
-    <state width="1493" height="288" key="GridCell.Tab.1.right" timestamp="1591967992285">
+    <state width="1493" height="288" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591987596876" />
+    <state width="1493" height="288" key="GridCell.Tab.1.left" timestamp="1591987596876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591967992285" />
-    <state width="1493" height="288" key="GridCell.Tab.2.bottom" timestamp="1591967988524">
+    <state width="1493" height="288" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591987596876" />
+    <state width="1493" height="288" key="GridCell.Tab.1.right" timestamp="1591987596876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
-    <state width="1493" height="288" key="GridCell.Tab.2.center" timestamp="1591967988524">
+    <state width="1493" height="288" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591987596876" />
+    <state width="1493" height="288" key="GridCell.Tab.2.bottom" timestamp="1591987592594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
-    <state width="1493" height="288" key="GridCell.Tab.2.left" timestamp="1591967988524">
+    <state width="1493" height="288" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591987592594" />
+    <state width="1493" height="288" key="GridCell.Tab.2.center" timestamp="1591987592594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
-    <state width="1493" height="288" key="GridCell.Tab.2.right" timestamp="1591967988524">
+    <state width="1493" height="288" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1591987592594" />
+    <state width="1493" height="288" key="GridCell.Tab.2.left" timestamp="1591987592594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
-    <state width="1493" height="288" key="GridCell.Tab.3.bottom" timestamp="1591967988524">
+    <state width="1493" height="288" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1591987592594" />
+    <state width="1493" height="288" key="GridCell.Tab.2.right" timestamp="1591987592594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
-    <state width="1493" height="288" key="GridCell.Tab.3.center" timestamp="1591967988524">
+    <state width="1493" height="288" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1591987592594" />
+    <state width="1493" height="288" key="GridCell.Tab.3.bottom" timestamp="1591987592594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
-    <state width="1493" height="288" key="GridCell.Tab.3.left" timestamp="1591967988524">
+    <state width="1493" height="288" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591987592594" />
+    <state width="1493" height="288" key="GridCell.Tab.3.center" timestamp="1591987592594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
-    <state width="1493" height="288" key="GridCell.Tab.3.right" timestamp="1591967988524">
+    <state width="1493" height="288" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1591987592594" />
+    <state width="1493" height="288" key="GridCell.Tab.3.left" timestamp="1591987592594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1591967988524" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591967329840">
+    <state width="1493" height="288" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1591987592594" />
+    <state width="1493" height="288" key="GridCell.Tab.3.right" timestamp="1591987592594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591967329840" />
+    <state width="1493" height="288" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1591987592594" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1591985530957">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591985530957" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591987319384">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591987319384" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs</url>
-          <line>42</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" initialLine="40">
+          <url>file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/StunController.cs</url>
+          <line>26</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/StunController.cs" initialLine="26">
             <startOffsets>
-              <option value="1606" />
+              <option value="627" />
             </startOffsets>
             <endOffsets>
-              <option value="1668" />
+              <option value="664" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs</url>
-          <line>28</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" initialLine="28">
-            <startOffsets>
-              <option value="589" />
-            </startOffsets>
-            <endOffsets>
-              <option value="646" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
