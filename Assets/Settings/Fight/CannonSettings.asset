@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxDistance: 8
   _acceleration: 1
-  _reloadSeconds: 1
+  _reloadSeconds: 0.1
