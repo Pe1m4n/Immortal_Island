@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb2016f3073d4a279fb9537bace80b03, type: 3}
   m_Name: ExplosionData
   m_EditorClassIdentifier: 
-  _explosionStunRadius: 0.5
-  _explosionMoveRadius: 0.75
-  _throwPowerMax: 100
+  _explosionStunRadius: 3
+  _explosionMoveRadius: 5
+  _throwPowerMax: 500
   _throwPowerMin: 10
   _movePower: 0.9
   _stunDuration: 3
