@@ -59501,6 +59501,8 @@ MonoBehaviour:
   _worldData: {fileID: 11400000, guid: 7b2593d8853804f43bd40b1fc297f686, type: 2}
   _timerText: {fileID: 1195935774}
   _healthText: {fileID: 1759752134}
+  _winScreen: {fileID: 1810694977}
+  _loseScreen: {fileID: 0}
 --- !u!1 &344915004344308179
 GameObject:
   m_ObjectHideFlags: 0

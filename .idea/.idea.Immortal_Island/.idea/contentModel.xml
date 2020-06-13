@@ -657,6 +657,8 @@
           <e p="Common" t="Include">
             <e p="InputHandlingBlocker.cs" t="Include" />
             <e p="InputSource.cs" t="Include" />
+            <e p="SceneLoader.cs" t="Include" />
+            <e p="SceneLoaderComponent.cs" t="Include" />
           </e>
           <e p="Fight" t="Include">
             <e p="Enemies" t="Include">
