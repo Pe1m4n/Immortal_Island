@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TEST
   m_EditorClassIdentifier: 
   _healthCount: 1
-  _roundTime: 210
+  _roundTime: 2
   _spawns:
   - secondsTillSpawn: 0
     enemy: {fileID: 11400000, guid: bae836c256f72d3439730e9781b3173a, type: 2}

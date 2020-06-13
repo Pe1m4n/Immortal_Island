@@ -5,7 +5,7 @@ namespace Source.Installers
     public class NextFightController
     {
         private readonly LocationsInfo _locationsInfo;
-        private int _currentLocation;
+        public int CurrentLocation { get; private set; }
 
         public NextFightController(LocationsInfo locationsInfo)
         {
@@ -14,17 +14,17 @@ namespace Source.Installers
 
         public void CompleteLocation()
         {
-            _currentLocation++;
+            CurrentLocation++;
         }
 
         public bool HasCurrentLocation()
         {
-            return _currentLocation < _locationsInfo.LocationNames.Count;
+            return CurrentLocation < _locationsInfo.LocationNames.Count;
         }
         
         public string GetCurrentLocationName()
         {
-            return _locationsInfo.LocationNames[_currentLocation];
+            return _locationsInfo.LocationNames[CurrentLocation];
         }
     }
 }
