@@ -26,10 +26,10 @@ namespace Source.Lobby
         private void BuildMap()
         {
             var lastCompletedLevel = _nextFightController.CurrentLocation - 1;
-
-            if (_xMarks.Count > lastCompletedLevel && lastCompletedLevel >= 0)
+            
+            for (int i = lastCompletedLevel; i < _xMarks.Count && i >= 0; i++)
             {
-                _xMarks[lastCompletedLevel].SetActive(true);
+                _xMarks[i].SetActive(true);
             }
 
             if (_circles.Count > _nextFightController.CurrentLocation)
