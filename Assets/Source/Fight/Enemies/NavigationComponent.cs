@@ -16,6 +16,8 @@ namespace Source.Fight.Enemies
         private readonly Transform _syncTransform;
         private readonly HealthController _healthController;
         private readonly WinLoseController _winLoseController;
+        private readonly GameObject _hitEffect;
+        private readonly IInstantiator _instantiator;
 
         private DestinationPoint _destination;
         private StunComponent _stunComponent;
@@ -23,13 +25,15 @@ namespace Source.Fight.Enemies
 
         public NavigationComponent(NavMeshAgent agent, IEnumerable<DestinationPoint> destinationPoints,
             Transform mainTransform, Transform syncTransform,HealthController healthController,
-            WinLoseController winLoseController, GameObject prefab)
+            WinLoseController winLoseController, GameObject hitEffect, IInstantiator instantiator)
         {
             _agent = agent;
             _mainTransform = mainTransform;
             _syncTransform = syncTransform;
             _healthController = healthController;
             _winLoseController = winLoseController;
+            _hitEffect = hitEffect;
+            _instantiator = instantiator;
 
             var random = new System.Random();
             _destination = destinationPoints.OrderBy(x => random.Next()).First();
@@ -57,6 +61,10 @@ namespace Source.Fight.Enemies
             
             if (_agent.hasPath && _agent.remainingDistance <= 0.2f)
             {
+                if (_hitEffect != null)
+                {
+                    _instantiator.InstantiatePrefab(_hitEffect, _mainTransform.position, _mainTransform.rotation, null);
+                }
                 _healthController.DecrementHealth();
                 UnityEngine.Object.Destroy(_mainTransform.gameObject);
             }
