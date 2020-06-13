@@ -18,6 +18,7 @@ namespace Source.Installers
             Container.Bind<LocationsInfo>().FromInstance(_locations).AsSingle();
             Container.Bind<PointsData>().FromInstance(_pointsData).AsSingle();
             Container.Bind<PlayerNameHolder>().AsSingle();
+            Container.Bind<LeaderBoardController>().AsSingle();
         }
     }
 }

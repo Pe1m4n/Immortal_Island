@@ -5,6 +5,12 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="dreamlo" t="Include">
+          <e p="dreamloLeaderBoard.cs" t="Include" />
+          <e p="dreamloPromoCode.cs" t="Include" />
+          <e p="LeaderBoardSample.cs" t="Include" />
+          <e p="README_FIRST.txt" t="Include" />
+        </e>
         <e p="Plugins" t="Include">
           <e p="NavMeshComponents" t="Include">
             <e p="Editor" t="Include">
@@ -675,6 +681,10 @@
               <e p="SpawnZone.cs" t="Include" />
               <e p="StunController.cs" t="Include" />
             </e>
+            <e p="Points" t="Include">
+              <e p="PointsController.cs" t="Include" />
+              <e p="PointsData.cs" t="Include" />
+            </e>
             <e p="Shooting" t="Include">
               <e p="AimTextureController.cs" t="Include" />
               <e p="CannonComponent.cs" t="Include" />
@@ -709,7 +719,15 @@
             <e p="NextFightController.cs" t="Include" />
             <e p="ProjectInstaller.cs" t="Include" />
           </e>
+          <e p="Leaderboard" t="Include">
+            <e p="LeaderBoardController.cs" t="Include" />
+            <e p="LeaderBoardControllerComponent.cs" t="Include" />
+            <e p="LeaderBoardRow.cs" t="Include" />
+            <e p="PlayerNameHolder.cs" t="Include" />
+            <e p="PlayerNameSetter.cs" t="Include" />
+          </e>
           <e p="Lobby" t="Include">
+            <e p="LobbyController.cs" t="Include" />
             <e p="LobbyRouteController.cs" t="Include" />
           </e>
         </e>
