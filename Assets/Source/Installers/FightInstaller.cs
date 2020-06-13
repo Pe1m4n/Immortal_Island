@@ -18,6 +18,7 @@ namespace Source.Installers
         [SerializeField] private WorldData _worldData;
 
         [Header("UI")] [SerializeField] private Text _timerText;
+        [SerializeField] private Text _healthText;
 
         public override void InstallBindings()
         {
@@ -33,9 +34,10 @@ namespace Source.Installers
             Container.Bind<WorldData>().FromInstance(_worldData).AsSingle();
             Container.BindInterfacesTo<RoundTimeController>().AsSingle();
             Container.Bind<WinLoseController>().AsSingle();
-            Container.Bind<HealthController>().AsSingle();
+            Container.Bind<HealthController>().AsSingle().NonLazy();
 
-            Container.Bind<Text>().FromInstance(_timerText).AsSingle().WhenInjectedInto<RoundTimeController>();
+            Container.Bind<Text>().FromInstance(_timerText).AsCached().WhenInjectedInto<RoundTimeController>();
+            Container.Bind<Text>().FromInstance(_healthText).AsCached().WhenInjectedInto<HealthController>();
         }
         
         private void BindEnemyRelatedStuff()

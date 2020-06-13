@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Source.Fight.World;
 using UnityEngine;
 using UnityEngine.AI;
 using Zenject;
@@ -21,12 +22,13 @@ namespace Source.Fight.Enemies
         private IEnumerable<DestinationPoint> _destinations;
 
         [Inject]
-        public void SetUp(IEnumerable<DestinationPoint> destinations)
+        public void SetUp(IEnumerable<DestinationPoint> destinations, HealthController healthController)
         {
             AnimationComponent = new AnimationComponent(_animator);
-            NavigationComponent = new NavigationComponent(_navMeshAgent, destinations, transform, _syncTransform);
+            NavigationComponent = new NavigationComponent(_navMeshAgent, destinations, transform, _syncTransform, healthController);
             PhysicsComponent = new PhysicsComponent(gameObject.GetComponentsInChildren<Rigidbody>(), AnimationComponent, NavigationComponent);
             StunComponent = new StunComponent(PhysicsComponent);
+            NavigationComponent.Init(StunComponent);
         }
         
         private void Start()
@@ -37,6 +39,7 @@ namespace Source.Fight.Enemies
         private void Update()
         {
             StunComponent.Tick();
+            NavigationComponent.Tick();
         }
     }
 }

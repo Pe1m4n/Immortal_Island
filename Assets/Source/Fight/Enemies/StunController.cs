@@ -6,10 +6,9 @@ namespace Source.Fight.Enemies
 {
     public class StunComponent : ITickable
     {
-        
         private readonly PhysicsComponent _physicsComponent;
 
-        private bool _isStunned;
+        public bool IsStunned { get; private set; }
         private float _getUpTime;
         
         public StunComponent(PhysicsComponent physicsComponent)
@@ -19,7 +18,7 @@ namespace Source.Fight.Enemies
 
         public void Tick()
         {
-            if (!_isStunned)
+            if (!IsStunned)
             {
                 return;
             }
@@ -32,24 +31,24 @@ namespace Source.Fight.Enemies
 
         private void GetUp()
         {
-            if (!_isStunned)
+            if (!IsStunned)
             {
                 return;
             }
 
             _physicsComponent.SetRagdollActive(false);
-            _isStunned = false;
+            IsStunned = false;
         }
 
         public void StunForSeconds(float seconds, ExplosionArgs explosionArgs)
         {
-            if (!_isStunned)
+            if (!IsStunned)
             {
                 _physicsComponent.SetRagdollActive(true);
             }
             _physicsComponent.AddForce(explosionArgs);
             _getUpTime = Time.time + seconds;
-            _isStunned = true;
+            IsStunned = true;
         }
     }
 }
