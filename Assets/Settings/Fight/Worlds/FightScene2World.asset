@@ -12,5 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f69c253ddcda4d62a70bffe81ca7f491, type: 3}
   m_Name: FightScene2World
   m_EditorClassIdentifier: 
-  _healthCount: 10
+  _healthCount: 1
   _roundTime: 210
+  _spawns:
+  - secondsTillSpawn: 0
+    enemy: {fileID: 11400000, guid: fbe66d31f7657e545afd386092ee738c, type: 2}
+    count: 3
+  - secondsTillSpawn: 15
+    enemy: {fileID: 11400000, guid: fbe66d31f7657e545afd386092ee738c, type: 2}
+    count: 5
+  - secondsTillSpawn: 45
+    enemy: {fileID: 11400000, guid: fbe66d31f7657e545afd386092ee738c, type: 2}
+    count: 5

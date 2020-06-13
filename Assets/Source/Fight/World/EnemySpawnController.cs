@@ -10,31 +10,54 @@ namespace Source.Fight.World
     public class EnemySpawnController : ITickable
     {
         private const string SPAWN_NAV_MESH_LAYER = "Spawn";
-        private const float TEST_SPAWN_DELAY = 5f;
-        private readonly Dictionary<string, EnemyData> _enemies;
         private readonly IInstantiator _instantiator;
         private readonly SpawnZone _spawnzone;
 
-        private float _nextSpawn = float.MinValue;
+        private float _nextSpawn;
+        private float _currentTime = 0f;
 
-        public EnemySpawnController(Dictionary<string, EnemyData> enemies, IInstantiator instantiator,
-            SpawnZone spawnzone)
+        private List<SpawnData> _spawns;
+        private int _nextSpawnId;
+        private bool _stopSpawning;
+        
+        public EnemySpawnController(IInstantiator instantiator,
+            SpawnZone spawnzone, WorldData worldData)
         {
-            _enemies = enemies;
             _instantiator = instantiator;
             _spawnzone = spawnzone;
+            _spawns = worldData.Spawns.OrderBy(x => x.secondsTillSpawn).ToList();
+            _nextSpawn = _spawns[_nextSpawnId].secondsTillSpawn;
         }
 
         public void Tick()
         {
-            if (Time.time > _nextSpawn)
+            if (_stopSpawning)
+            {
+                return;
+            }
+            
+            _currentTime += Time.deltaTime;   
+            if (_currentTime > _nextSpawn)
             {
                 Spawn();
-                _nextSpawn = Time.time + TEST_SPAWN_DELAY;
             }
         }
 
         private void Spawn()
+        {
+            SpawnEnemy(_spawns[_nextSpawnId].enemy, _spawns[_nextSpawnId].count);
+            
+            _nextSpawnId++;
+            if (_nextSpawnId >= _spawns.Count)
+            {
+                _stopSpawning = true;
+                return;
+            }
+
+            _nextSpawn = _spawns[_nextSpawnId].secondsTillSpawn;
+        }
+
+        private void SpawnEnemy(EnemyData enemy, int count)
         {
             var spawnRenderer = _spawnzone.GetComponent<Renderer>();
             var bounds = spawnRenderer.bounds;
@@ -43,15 +66,19 @@ namespace Source.Fight.World
                 (Random.value - 0.5f) * bounds.size.y,
                 (Random.value - 0.5f) * bounds.size.z
             );
-            NavMeshHit hit;
-            if (!NavMesh.SamplePosition(randomPoint, out hit, 3f, NavMesh.GetAreaFromName(SPAWN_NAV_MESH_LAYER)))
-            {
-                Debug.LogError("Failed to get random position on spawn nav mesh layer");
-                return;
-            }
             
-            var prefab = _enemies.First().Value.Prefab;
-            _instantiator.InstantiatePrefab(prefab, hit.position, Quaternion.identity, null);
+            for (int i = 0; i < count; i++)
+            {
+                NavMeshHit hit;
+                if (!NavMesh.SamplePosition(randomPoint, out hit, 3f, NavMesh.GetAreaFromName(SPAWN_NAV_MESH_LAYER)))
+                {
+                    Debug.LogError("Failed to get random position on spawn nav mesh layer");
+                    return;
+                }
+            
+                var prefab = enemy.Prefab;
+                _instantiator.InstantiatePrefab(prefab, hit.position, Quaternion.identity, null);
+            }
         }
     }
 }
