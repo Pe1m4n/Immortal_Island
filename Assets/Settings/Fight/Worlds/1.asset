@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f69c253ddcda4d62a70bffe81ca7f491, type: 3}
   m_Name: 1
   m_EditorClassIdentifier: 
-  _healthCount: 1
+  _healthCount: 5
   _roundTime: 60
   _spawns:
   - secondsTillSpawn: 0
