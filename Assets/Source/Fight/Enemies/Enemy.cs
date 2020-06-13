@@ -24,10 +24,10 @@ namespace Source.Fight.Enemies
         private IEnumerable<DestinationPoint> _destinations;
 
         [Inject]
-        public void SetUp(IEnumerable<DestinationPoint> destinations, HealthController healthController, WinLoseController winLoseController)
+        public void SetUp(IEnumerable<DestinationPoint> destinations, HealthController healthController, WinLoseController winLoseController, IInstantiator instantiator)
         {
             AnimationComponent = new AnimationComponent(_animator);
-            NavigationComponent = new NavigationComponent(_navMeshAgent, destinations, transform, _syncTransform, healthController, winLoseController, _hitEffect);
+            NavigationComponent = new NavigationComponent(_navMeshAgent, destinations, transform, _syncTransform, healthController, winLoseController, _hitEffect, instantiator);
             PhysicsComponent = new PhysicsComponent(gameObject.GetComponentsInChildren<Rigidbody>(), AnimationComponent, NavigationComponent);
             StunComponent = new StunComponent(PhysicsComponent);
             NavigationComponent.Init(StunComponent);
