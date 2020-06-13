@@ -7,6 +7,18 @@ namespace Source.Fight.Sounds
     {
         [SerializeField] private SoundsList _sounds;
         [SerializeField] private AudioSource _source;
+
+        [SerializeField] private bool _playOnAwake;
+
+        private void Awake()
+        {
+            if (!_playOnAwake)
+            {
+                return;
+            }
+            
+            PlayRandomSound();
+        }
         
         public void PlayRandomSound()
         {
