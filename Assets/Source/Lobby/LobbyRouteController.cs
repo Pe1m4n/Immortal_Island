@@ -27,7 +27,7 @@ namespace Source.Lobby
         {
             var lastCompletedLevel = _nextFightController.CurrentLocation - 1;
             
-            for (int i = lastCompletedLevel; i < _xMarks.Count && i >= 0; i++)
+            for (int i = 0; i < _xMarks.Count && i >= 0 && i <= lastCompletedLevel; i++)
             {
                 _xMarks[i].SetActive(true);
             }
