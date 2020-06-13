@@ -44,6 +44,10 @@ namespace Source.Fight.World
 
         private void UpdateTime()
         {
+            if (_winLoseController.GameLost || _winLoseController.GameWon)
+            {
+                return;
+            }
             TimeSpan time = TimeSpan.FromSeconds(CurrentTime);
             _timerText.text = time.ToString(@"mm\:ss");
         }

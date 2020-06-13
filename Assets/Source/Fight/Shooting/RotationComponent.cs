@@ -22,8 +22,11 @@ namespace Source.Fight
             {
                 return;
             }
+
+            var hitResult = hit.point;
+            hitResult.y = 0f;
             
-            _transformToRotate.LookAt(hit.point);
+            _transformToRotate.LookAt(hitResult);
         }
     }
 }

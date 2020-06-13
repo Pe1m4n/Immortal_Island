@@ -10,6 +10,8 @@ namespace Source.Fight
     public class ExplosionObject : MonoBehaviour
     {
         [SerializeField] private ExplosionData _explosionData;
+        [SerializeField] private GameObject _debugSphereHit;
+        [SerializeField] private GameObject _debugSphereEnemy;
 
         public void Start()
         {
@@ -19,10 +21,11 @@ namespace Source.Fight
             });
 
             var stunColliders = Physics.OverlapSphere(transform.position, _explosionData.ExplosionStunRadius);
-            var moveColliders = Physics.OverlapSphere(transform.position, _explosionData.ExplosionMoveRadius)
-                .Where(x => !stunColliders.Contains(x));
 
-            var moveTargets = GetEnemies(moveColliders);
+            if (_debugSphereHit != null)
+            {
+                Instantiate(_debugSphereHit, transform.position, transform.rotation, null);
+            }
             
             Stun(GetEnemies(stunColliders), transform.position);
         }
@@ -57,9 +60,14 @@ namespace Source.Fight
             {
                 enemy.StunComponent.StunForSeconds(_explosionData.StunDuration, new ExplosionArgs(
                     position,
-                    _explosionData.ThrowPowerMax,
+                    _explosionData.ThrowPower,
                     _explosionData.ExplosionStunRadius,
                     _explosionData.UpwardsForce));
+                
+                if (_debugSphereEnemy != null)
+                {
+                    Instantiate(_debugSphereEnemy, enemy.transform.position, enemy.transform.rotation, null);
+                }
             }
         }
         

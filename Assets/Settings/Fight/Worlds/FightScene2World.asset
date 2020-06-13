@@ -17,7 +17,7 @@ MonoBehaviour:
   _spawns:
   - secondsTillSpawn: 0
     enemy: {fileID: 11400000, guid: fbe66d31f7657e545afd386092ee738c, type: 2}
-    count: 3
+    count: 8
   - secondsTillSpawn: 15
     enemy: {fileID: 11400000, guid: fbe66d31f7657e545afd386092ee738c, type: 2}
     count: 5

@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b82a0ea-9822-4aea-872e-c29f63c24cef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Common/SceneLoader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Common/SceneLoader.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Common/SceneLoaderComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Common/SceneLoaderComponent.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Fight/World/WinLoseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fight/World/WinLoseController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="5b82a0ea-9822-4aea-872e-c29f63c24cef" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,46 +29,56 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/World/HealthController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/PhysicsComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Common/InputHandlingBlocker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/AimTextureController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/World/WinLoseController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/DestinationPoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/StunController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Sounds/SoundsList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/World/SkeletonKiller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/84/50427250/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/World/RoundTimeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/NavigationComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Sounds/RandomSoundsPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/RotationComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Installers/FightInstaller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/0d/df5d91e9/Random.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/ExplosionArgs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/SpawnZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Common/SpawnerComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ReloadComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03035303-2B91-4045-A0B9-6BEA329B98D3/f1/8ef92533/NavMeshAgent.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/NavMeshComponents/Editor/NavMeshAssetManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Installers/NextFightController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Common/SceneLoaderComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Installers/ProjectInstaller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/World/WorldData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/EnemyData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstallerBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/World/EnemySpawnController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Common/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/AnimationBehavour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/AnimationComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Common/InputSource.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Func.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03035303-2B91-4045-A0B9-6BEA329B98D3/52/f2ce2672/NavMesh.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E98ED036-8295-432E-8C11-E52D6243EE11/f4/65bea32f/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/World/HealthController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/PhysicsComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Common/InputHandlingBlocker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/AimTextureController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/World/WinLoseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/World/SpawnData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/StunController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Common/DestroyMeComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/NavigationComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Installers/FightInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/0d/df5d91e9/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/SpawnZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03035303-2B91-4045-A0B9-6BEA329B98D3/f1/8ef92533/NavMeshAgent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/NavMeshComponents/Editor/NavMeshAssetManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Installers/LocationLoaderController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Installers/ProjectInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/World/WorldData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Installers/LobbyInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/EnemyData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstallerBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/World/EnemySpawnController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Installers/LocationsInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/AnimationBehavour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03035303-2B91-4045-A0B9-6BEA329B98D3/52/f2ce2672/NavMesh.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -84,16 +88,12 @@
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/RotationComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ReloadComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Common/InputSource.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Installers/ProjectInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Common/InputHandlingBlocker.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/AimTextureController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/EnemyData.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/SpawnZone.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/World/EnemySpawnController.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/DestinationPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/ExplosionArgs.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ExplosionData.cs" />
@@ -101,17 +101,32 @@
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/PhysicsComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/AnimationComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/AnimationBehavour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/World/WorldData.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/World/RoundTimeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Fight/World/HealthController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Installers/FightInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/StunController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/NavigationComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Fight/World/WinLoseController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Common/SceneLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShotPowerChargingComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Sounds/SoundsList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Sounds/RandomSoundsPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Common/AwakeUnityEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Common/SceneLoaderComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/World/SkeletonKiller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Common/SceneLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/World/WinLoseController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/CannonComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Shooting/ShootingComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Common/DestroyMeComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Common/SpawnerComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/StunController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/World/SpawnData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/World/WorldData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Installers/FightInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/World/EnemySpawnController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Installers/LocationsInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Installers/NextFightController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Installers/LocationLoaderController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Installers/ProjectInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Installers/LobbyInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Fight/Enemies/NavigationComponent.cs" />
       </list>
     </option>
   </component>
@@ -252,10 +267,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591985530957" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592042350654">
+    <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog" timestamp="1592052209437">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592042350654" />
+    <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1592052209437" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592052077543">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592052077543" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -285,6 +304,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Source/Fight/Enemies/NavigationComponent.cs</url>
+          <line>63</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Source/Fight/Enemies/NavigationComponent.cs" initialLine="63">
+            <startOffsets>
+              <option value="2186" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2209" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

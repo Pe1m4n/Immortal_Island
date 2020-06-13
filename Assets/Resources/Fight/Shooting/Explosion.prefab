@@ -101,6 +101,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _explosionData: {fileID: 11400000, guid: 4ce29a4c121d83e42a928951759d6419, type: 2}
+  _debugSphereHit: {fileID: 0}
+  _debugSphereEnemy: {fileID: 0}
 --- !u!114 &4492377732818562179
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -40,7 +40,10 @@ namespace Source.Fight.Enemies
 
             foreach (var rb in _rigidbodies)
             {
-                rb.AddExplosionForce(args.Force, args.ExplosionPosition, args.Radius, args.Upwards);
+                var forceVector = (rb.position - args.ExplosionPosition).normalized;
+                forceVector.y = args.Upwards;
+                forceVector *= args.Force;
+                rb.AddForce(forceVector);
             }
         }
     }
