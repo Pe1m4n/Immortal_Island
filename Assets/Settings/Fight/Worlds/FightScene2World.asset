@@ -18,7 +18,16 @@ MonoBehaviour:
   - secondsTillSpawn: 0
     enemy: {fileID: 11400000, guid: fbe66d31f7657e545afd386092ee738c, type: 2}
     count: 3
-  - secondsTillSpawn: 15
+  - secondsTillSpawn: 1
+    enemy: {fileID: 11400000, guid: 5f0d3f564abc5c24d81cafd3e0565b6c, type: 2}
+    count: 5
+  - secondsTillSpawn: 3
+    enemy: {fileID: 11400000, guid: f1ea1f9868a5bb544a378c6e51f61c16, type: 2}
+    count: 5
+  - secondsTillSpawn: 45
+    enemy: {fileID: 11400000, guid: fbe66d31f7657e545afd386092ee738c, type: 2}
+    count: 5
+  - secondsTillSpawn: 45
     enemy: {fileID: 11400000, guid: fbe66d31f7657e545afd386092ee738c, type: 2}
     count: 5
   - secondsTillSpawn: 45

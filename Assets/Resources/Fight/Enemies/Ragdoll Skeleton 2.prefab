@@ -762,7 +762,7 @@ Transform:
   m_GameObject: {fileID: 6984050269935472098}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0.48948896, y: 2.1002485e-17, z: -0.9458678}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.5, y: 3.5, z: 3.5}
   m_Children:
   - {fileID: 6984050269935681900}
   - {fileID: 6984050269935754292}
@@ -801,6 +801,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _navMeshAgent: {fileID: -4175084697037320232}
+  _animator: {fileID: 6984050269926036238}
+  _syncTransform: {fileID: 249158561534889328, guid: c747d555f4de134419f58f1e74e3acc8,
+    type: 3}
+  _hitEffect: {fileID: 1900756431413560, guid: 529eb4216865eba419c1a4a68d0b0388, type: 3}
+  _onStun:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!195 &-4175084697037320232
 NavMeshAgent:
   m_ObjectHideFlags: 0
