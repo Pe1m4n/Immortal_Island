@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 22c1653963ef41b8aaa511494956faee, type: 3}
-  m_Name: Skeleton 3
+  m_Name: Zombie 1
   m_EditorClassIdentifier: 
-  _name: Skeleton 3
-  _prefab: {fileID: 1563051750683316759, guid: 08277e690d5f2104bb50dde1dffcc223, type: 3}
+  _name: Zombie 1
+  _prefab: {fileID: 1247714770868203041, guid: 09796a26dba66d64683aaa5ef2013377, type: 3}

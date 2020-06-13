@@ -3756,6 +3756,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _navMeshAgent: {fileID: 3449457237195293353}
   _animator: {fileID: 933321553267969694}
+  _syncTransform: {fileID: 0}
+  _hitEffect: {fileID: 0}
+  _onStun:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!195 &3449457237195293353
 NavMeshAgent:
   m_ObjectHideFlags: 0
