@@ -4010,7 +4010,7 @@ MonoBehaviour:
   _destinationPoints:
   - {fileID: 344915004024880567}
   - {fileID: 344915002678853105}
-  _worldData: {fileID: 11400000, guid: 1d73289d962f2a9448685aef2b8bd71c, type: 2}
+  _worldData: {fileID: 11400000, guid: d2856d71b0d087f49b9e1b91317075fa, type: 2}
   _sceneMusicSource: {fileID: 759263589}
   _timerText: {fileID: 1195935774}
   _healthText: {fileID: 1759752134}
