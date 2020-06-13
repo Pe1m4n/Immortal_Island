@@ -69,6 +69,10 @@ MonoBehaviour:
   _navMeshAgent: {fileID: 5163864990901065667}
   _animator: {fileID: 249158561544543844}
   _syncTransform: {fileID: 249158561534889328}
+  _hitEffect: {fileID: 1900756431413560, guid: 529eb4216865eba419c1a4a68d0b0388, type: 3}
+  _onStun:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!195 &5163864990901065667
 NavMeshAgent:
   m_ObjectHideFlags: 0

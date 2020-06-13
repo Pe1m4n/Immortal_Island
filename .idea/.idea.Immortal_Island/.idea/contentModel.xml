@@ -655,8 +655,12 @@
         </e>
         <e p="Source" t="Include">
           <e p="Common" t="Include">
+            <e p="DestroyMeComponent.cs" t="Include" />
             <e p="InputHandlingBlocker.cs" t="Include" />
             <e p="InputSource.cs" t="Include" />
+            <e p="SceneLoader.cs" t="Include" />
+            <e p="SceneLoaderComponent.cs" t="Include" />
+            <e p="SpawnerComponent.cs" t="Include" />
           </e>
           <e p="Fight" t="Include">
             <e p="Enemies" t="Include">
@@ -683,12 +687,26 @@
               <e p="ShootingComponent.cs" t="Include" />
               <e p="ShotPowerChargingComponent.cs" t="Include" />
             </e>
+            <e p="Sounds" t="Include">
+              <e p="RandomSoundsPlayer.cs" t="Include" />
+              <e p="SoundsList.cs" t="Include" />
+            </e>
             <e p="World" t="Include">
               <e p="EnemySpawnController.cs" t="Include" />
+              <e p="HealthController.cs" t="Include" />
+              <e p="RoundTimeController.cs" t="Include" />
+              <e p="SkeletonKiller.cs" t="Include" />
+              <e p="SpawnData.cs" t="Include" />
+              <e p="WinLoseController.cs" t="Include" />
+              <e p="WorldData.cs" t="Include" />
             </e>
           </e>
           <e p="Installers" t="Include">
             <e p="FightInstaller.cs" t="Include" />
+            <e p="LobbyInstaller.cs" t="Include" />
+            <e p="LocationLoaderController.cs" t="Include" />
+            <e p="LocationsInfo.cs" t="Include" />
+            <e p="NextFightController.cs" t="Include" />
             <e p="ProjectInstaller.cs" t="Include" />
           </e>
         </e>
@@ -698,6 +716,39 @@
               <e p="ReadmeEditor.cs" t="Include" />
             </e>
             <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+        <e p="VFX" t="Include">
+          <e p="EffectExamples" t="Include">
+            <e p="Editor" t="Include">
+              <e p="PackageManagerAssembly" t="Include">
+                <e p="PackageImportList.txt" t="Include" />
+              </e>
+            </e>
+            <e p="Shared" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="DecalDestroyer.cs" t="Include" />
+                <e p="ExtinguishableFire.cs" t="Include" />
+                <e p="GunAim.cs" t="Include" />
+                <e p="GunShoot.cs" t="Include" />
+                <e p="ParticleCollision.cs" t="Include" />
+                <e p="ParticleExamples.cs" t="Include" />
+                <e p="ParticleMenu.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="SurfaceShader_VC.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Hovl Studio" t="Include">
+            <e p="Procedural fire" t="Include">
+              <e p="Demo scene" t="Include">
+                <e p="Readme.txt" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="FireSphere.shader" t="Include" />
+              </e>
+            </e>
           </e>
         </e>
       </e>

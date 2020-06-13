@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f69c253ddcda4d62a70bffe81ca7f491, type: 3}
+  m_Name: FightScene2World
+  m_EditorClassIdentifier: 
+  _healthCount: 1
+  _roundTime: 210
+  _spawns:
+  - secondsTillSpawn: 0
+    enemy: {fileID: 11400000, guid: fbe66d31f7657e545afd386092ee738c, type: 2}
+    count: 3
+  - secondsTillSpawn: 1
+    enemy: {fileID: 11400000, guid: 5f0d3f564abc5c24d81cafd3e0565b6c, type: 2}
+    count: 5
+  - secondsTillSpawn: 3
+    enemy: {fileID: 11400000, guid: f1ea1f9868a5bb544a378c6e51f61c16, type: 2}
+    count: 5
+  - secondsTillSpawn: 4
+    enemy: {fileID: 11400000, guid: bae836c256f72d3439730e9781b3173a, type: 2}
+    count: 1
+  - secondsTillSpawn: 5
+    enemy: {fileID: 11400000, guid: bae836c256f72d3439730e9781b3173a, type: 2}
+    count: 1
+  - secondsTillSpawn: 45
+    enemy: {fileID: 11400000, guid: fbe66d31f7657e545afd386092ee738c, type: 2}
+    count: 5

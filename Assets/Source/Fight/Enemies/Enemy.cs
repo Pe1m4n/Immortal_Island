@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Source.Fight.World;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 using Zenject;
 
 namespace Source.Fight.Enemies
@@ -12,7 +14,9 @@ namespace Source.Fight.Enemies
         [SerializeField] private NavMeshAgent _navMeshAgent;
         [SerializeField] private Animator _animator;
         [SerializeField] private Transform _syncTransform;
-
+        [SerializeField] private GameObject _hitEffect;
+        [SerializeField] private UnityEvent _onStun;
+        
         public AnimationComponent AnimationComponent { get; private set; }
         public StunComponent StunComponent { get; private set; }
         public PhysicsComponent PhysicsComponent { get; private set; }
@@ -21,12 +25,13 @@ namespace Source.Fight.Enemies
         private IEnumerable<DestinationPoint> _destinations;
 
         [Inject]
-        public void SetUp(IEnumerable<DestinationPoint> destinations)
+        public void SetUp(IEnumerable<DestinationPoint> destinations, HealthController healthController, WinLoseController winLoseController, IInstantiator instantiator)
         {
             AnimationComponent = new AnimationComponent(_animator);
-            NavigationComponent = new NavigationComponent(_navMeshAgent, destinations, transform, _syncTransform);
+            NavigationComponent = new NavigationComponent(_navMeshAgent, destinations, transform, _syncTransform, healthController, winLoseController, _hitEffect, instantiator);
             PhysicsComponent = new PhysicsComponent(gameObject.GetComponentsInChildren<Rigidbody>(), AnimationComponent, NavigationComponent);
-            StunComponent = new StunComponent(PhysicsComponent);
+            StunComponent = new StunComponent(PhysicsComponent, _onStun);
+            NavigationComponent.Init(StunComponent);
         }
         
         private void Start()
@@ -37,6 +42,7 @@ namespace Source.Fight.Enemies
         private void Update()
         {
             StunComponent.Tick();
+            NavigationComponent.Tick();
         }
     }
 }
