@@ -12,10 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/FinalIslands/1.unity
     guid: f2c6f682221b6f84e9f3117796606c7c
   - enabled: 1
-    path: Assets/Scenes/FinalIslands/2.unity
+    path: Assets/Scenes/FinalIslands/Banned/2.unity
     guid: 50b4684d0ecea9d48a7e87bfc583ffdc
   - enabled: 1
-    path: Assets/Scenes/FinalIslands/3.unity
+    path: Assets/Scenes/FinalIslands/Banned/3.unity
     guid: df572bedc969d194f86295304503a11b
   - enabled: 1
     path: Assets/Scenes/FinalIslands/4.unity
