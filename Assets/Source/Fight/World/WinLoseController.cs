@@ -1,4 +1,5 @@
 ﻿using Source.Common;
+using Source.Fight.Points;
 using Source.Installers;
 using UnityEngine;
 
@@ -11,15 +12,18 @@ namespace Source.Fight.World
         private readonly InputHandlingBlocker _inputHandlingBlocker;
         private readonly AudioSource _sceneMusicSource;
         private readonly NextFightController _nextFightController;
+        private readonly PointsController _pointsController;
 
         public WinLoseController(GameObject winScreen, GameObject loseScreen,
-            InputHandlingBlocker inputHandlingBlocker, AudioSource sceneMusicSource, NextFightController nextFightController)
+            InputHandlingBlocker inputHandlingBlocker, AudioSource sceneMusicSource,
+            NextFightController nextFightController, PointsController pointsController)
         {
             _winScreen = winScreen;
             _loseScreen = loseScreen;
             _inputHandlingBlocker = inputHandlingBlocker;
             _sceneMusicSource = sceneMusicSource;
             _nextFightController = nextFightController;
+            _pointsController = pointsController;
         }
         
         public bool GameWon { get; set; }
@@ -37,6 +41,8 @@ namespace Source.Fight.World
             _inputHandlingBlocker.SetAllowedInputs(InputSource.None);
             _sceneMusicSource.Stop();
             _nextFightController.CompleteLocation();
+            _pointsController.StopAddingPoints();
+            _pointsController.AddPoints(_pointsController.Data.PointsForWin);
         }
 
         public void Lose()
@@ -50,6 +56,7 @@ namespace Source.Fight.World
             _loseScreen.SetActive(true);
             _inputHandlingBlocker.SetAllowedInputs(InputSource.None);
             _sceneMusicSource.Stop();
+            _pointsController.StopAddingPoints();
         }
     }
 }

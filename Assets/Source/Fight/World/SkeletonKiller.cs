@@ -1,4 +1,5 @@
 ﻿using Source.Fight.Enemies;
+using Source.Fight.Points;
 using UnityEngine;
 
 namespace Source.Fight.World
@@ -12,6 +13,7 @@ namespace Source.Fight.World
             if (enemy != null)
             {
                 Destroy(enemy.gameObject);
+                PointsController.Instance.AddPoints(PointsController.Instance.Data.PointsPerSkeletonKilled);
             }
         }
     }

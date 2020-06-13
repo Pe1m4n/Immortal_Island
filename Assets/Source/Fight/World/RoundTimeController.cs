@@ -20,7 +20,7 @@ namespace Source.Fight.World
             CurrentTime = data.RoundTime;
             UpdateTime();
             
-            Observable.Interval(TimeSpan.FromMilliseconds(1000)).Subscribe(
+            Observable.Interval(TimeSpan.FromSeconds(1)).Subscribe(
                 x =>
                 {
                     UpdateTime();

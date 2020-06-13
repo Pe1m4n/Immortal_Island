@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Source.Fight;
 using Source.Fight.Enemies;
+using Source.Fight.Points;
 using Source.Fight.World;
 using UnityEngine;
 using UnityEngine.UI;
@@ -22,6 +23,7 @@ namespace Source.Installers
         [SerializeField] private Text _healthText;
         [SerializeField] private GameObject _winScreen;
         [SerializeField] private GameObject _loseScreen;
+        [SerializeField] private Text _pointsText;
 
         public override void InstallBindings()
         {
@@ -30,6 +32,8 @@ namespace Source.Installers
             BindEnemyRelatedStuff();
             InjectDependenciesToPrefabs();
             BindWorldRules();
+
+            Container.Bind<PointsController>().AsSingle().WithArguments(_pointsText);
         }
 
         private void BindWorldRules()
