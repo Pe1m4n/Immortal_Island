@@ -11,6 +11,7 @@ namespace Source.Installers
         [SerializeField] private LocationLoaderController _locationLoader;
         [SerializeField] private LobbyRouteController _lobbyRouteController;
         [SerializeField] private PlayerNameSetter _nameSetter;
+        [SerializeField] private LeaderBoardControllerComponent _lbController;
         
         
         [SerializeField] private GameObject _enterNameWindow;
@@ -22,6 +23,7 @@ namespace Source.Installers
             Container.Inject(_locationLoader);
             Container.Inject(_lobbyRouteController);
             Container.Inject(_nameSetter);
+            Container.Inject(_lbController);
 
             Container.BindInterfacesTo<LobbyController>().AsSingle()
                 .WithArguments(_enterNameWindow, _newUserWindow, _mapWindow);

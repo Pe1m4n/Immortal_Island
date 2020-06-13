@@ -43,6 +43,7 @@ namespace Source.Fight.World
             _nextFightController.CompleteLocation();
             _pointsController.StopAddingPoints();
             _pointsController.AddPoints(_pointsController.Data.PointsForWin);
+            _pointsController.FinalizePoints();
         }
 
         public void Lose()
@@ -57,6 +58,7 @@ namespace Source.Fight.World
             _inputHandlingBlocker.SetAllowedInputs(InputSource.None);
             _sceneMusicSource.Stop();
             _pointsController.StopAddingPoints();
+            _pointsController.ResetPoints();
         }
     }
 }
