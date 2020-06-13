@@ -637,7 +637,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b8cbe3dc60f10024cb7e2555c29dd64d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 080cdbe4a4eb25f4cacea45efb6556da, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.35
   m_Pitch: 1
@@ -3793,7 +3793,7 @@ MonoBehaviour:
   _destinationPoints:
   - {fileID: 344915004024880567}
   - {fileID: 344915002678853105}
-  _worldData: {fileID: 11400000, guid: 4f4d0d68b6161214db6c358baf3dbd4f, type: 2}
+  _worldData: {fileID: 11400000, guid: 6a82f97c2a6f6a0429400ac5fb2f4dea, type: 2}
   _sceneMusicSource: {fileID: 759263589}
   _timerText: {fileID: 1195935774}
   _healthText: {fileID: 1759752134}
