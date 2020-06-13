@@ -1,33 +1,34 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 namespace Source.Leaderboard
 {
     public class PlayerNameHolder
     {
-        private readonly GameObject _enterNameDialog;
         private const string PLAYER_NAME_PREFS = "PlayerName";
         public string Name { get; set; }
 
-        public PlayerNameHolder(GameObject enterNameDialog)
+        public bool ShouldEnterName()
         {
-            _enterNameDialog = enterNameDialog;
             if (PlayerPrefs.HasKey(PLAYER_NAME_PREFS))
             {
                 Name = PlayerPrefs.GetString(PLAYER_NAME_PREFS);
-                return;
+                return false;
             }
-            
-            ShowEnterNameDialog();
-        }
 
-        public void ShowEnterNameDialog()
-        {
-            _enterNameDialog.SetActive(true);
+            return true;
         }
         
-        public void SetName(string name)
+        public bool SetName(string name)
         {
+            if (string.IsNullOrEmpty(name))
+            {
+                return false;
+            }
+
             Name = name;
+            PlayerPrefs.SetString(PLAYER_NAME_PREFS, Name);
+            return true;
         }
     }
 }
