@@ -1,6 +1,7 @@
 ﻿using Source.Common;
 using Source.Fight.Sounds;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 using Zenject;
 
@@ -12,18 +13,20 @@ namespace Source.Fight
         private readonly InputHandlingBlocker _inputHandlingBlocker;
         private readonly Transform _cannonTransform;
         private readonly RandomSoundsPlayer _shotSoundsPlayer;
+        private readonly UnityEvent _onShot;
         private readonly ReloadComponent _reloadComponent;
         private readonly ShotPowerChargingComponent _powerChargingComponent;
         private readonly ExplosionComponent _explosionComponent;
 
         public ShootingComponent(CannonSettings settings, InputHandlingBlocker inputHandlingBlocker,
             Transform cannonTransform, ExplosionObject explosionObject, IInstantiator instantiator, Image aimImage,
-            AudioSource wickAudio, RandomSoundsPlayer shotSoundsPlayer)
+            AudioSource wickAudio, RandomSoundsPlayer shotSoundsPlayer, UnityEvent onShot)
         {
             _settings = settings;
             _inputHandlingBlocker = inputHandlingBlocker;
             _cannonTransform = cannonTransform;
             _shotSoundsPlayer = shotSoundsPlayer;
+            _onShot = onShot;
             _reloadComponent = new ReloadComponent(_settings);
             _powerChargingComponent = new ShotPowerChargingComponent(_settings, aimImage, wickAudio);
             _explosionComponent = new ExplosionComponent(explosionObject, instantiator, _settings);
@@ -47,6 +50,7 @@ namespace Source.Fight
             {
                 var power = _powerChargingComponent.StopChargingAndGetValue();
                 _reloadComponent.OnShot();
+                _onShot?.Invoke();
                 
                 var shotPosition = GetShotPositionForPower(power);
                 _explosionComponent.SpawnExplosionAt(shotPosition, power);
