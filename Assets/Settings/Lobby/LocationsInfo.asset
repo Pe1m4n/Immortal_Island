@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: LocationsInfo
   m_EditorClassIdentifier: 
   _locationNames:
-  - TestFightScene2
-  - TestFightScene
+  - 1
+  - 2
