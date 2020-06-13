@@ -1,4 +1,5 @@
-﻿using Zenject;
+﻿using UnityEngine.SceneManagement;
+using Zenject;
 
 namespace Source.Common
 {
@@ -17,6 +18,10 @@ namespace Source.Common
         {
             _sceneLoader.LoadScene(sceneName);
         }
-        
+
+        public void ReloadScene()
+        {
+            _sceneLoader.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 }

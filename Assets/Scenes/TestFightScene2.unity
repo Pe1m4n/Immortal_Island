@@ -483,6 +483,7 @@ GameObject:
   - component: {fileID: 637433790}
   - component: {fileID: 637433792}
   - component: {fileID: 637433791}
+  - component: {fileID: 637433793}
   m_Layer: 5
   m_Name: LoseScreen
   m_TagString: Untagged
@@ -549,6 +550,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637433789}
   m_CullTransparentMesh: 0
+--- !u!114 &637433793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637433789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da141118e3064e0f97a06d24e7c173ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &759263588
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,7 +1045,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1020595102}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 637433793}
+        m_MethodName: ReloadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1020595102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61104,7 +61128,7 @@ MonoBehaviour:
   _timerText: {fileID: 1195935774}
   _healthText: {fileID: 1759752134}
   _winScreen: {fileID: 1810694977}
-  _loseScreen: {fileID: 0}
+  _loseScreen: {fileID: 637433789}
 --- !u!1 &344915004344308179
 GameObject:
   m_ObjectHideFlags: 0

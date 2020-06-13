@@ -8,5 +8,10 @@ namespace Source.Common
         {
             SceneLoader.Instance.LoadScene(sceneName);
         }
+
+        public void ReloadScene()
+        {
+            SceneLoader.Instance.ReloadScene();
+        }
     }
 }

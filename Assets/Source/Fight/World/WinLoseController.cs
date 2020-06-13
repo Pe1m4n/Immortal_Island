@@ -1,14 +1,19 @@
-﻿using UnityEngine;
+﻿using Source.Common;
+using UnityEngine;
 
 namespace Source.Fight.World
 {
     public class WinLoseController
     {
-        private readonly GameObject _finalWindow;
+        private readonly GameObject _winScreen;
+        private readonly GameObject _loseScreen;
+        private readonly InputHandlingBlocker _inputHandlingBlocker;
 
-        public WinLoseController(GameObject finalWindow)
+        public WinLoseController(GameObject winScreen, GameObject loseScreen, InputHandlingBlocker inputHandlingBlocker)
         {
-            _finalWindow = finalWindow;
+            _winScreen = winScreen;
+            _loseScreen = loseScreen;
+            _inputHandlingBlocker = inputHandlingBlocker;
         }
         
         public bool GameWon { get; set; }
@@ -17,13 +22,15 @@ namespace Source.Fight.World
         public void Win()
         {
             GameWon = true;
-            _finalWindow.SetActive(true);
+            _winScreen.SetActive(true);
+            _inputHandlingBlocker.SetAllowedInputs(InputSource.None);
         }
 
         public void Lose()
         {
             GameLost = true;
-            _finalWindow.SetActive(true);
+            _loseScreen.SetActive(true);
+            _inputHandlingBlocker.SetAllowedInputs(InputSource.None);
         }
     }
 }

@@ -35,7 +35,7 @@ namespace Source.Installers
         {
             Container.Bind<WorldData>().FromInstance(_worldData).AsSingle();
             Container.BindInterfacesTo<RoundTimeController>().AsSingle();
-            Container.Bind<WinLoseController>().AsSingle().WithArguments(_winScreen);
+            Container.Bind<WinLoseController>().AsSingle().WithArguments(_winScreen, _loseScreen);
             Container.Bind<HealthController>().AsSingle().NonLazy();
 
             Container.Bind<Text>().FromInstance(_timerText).AsCached().WhenInjectedInto<RoundTimeController>();

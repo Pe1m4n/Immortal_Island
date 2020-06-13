@@ -8,7 +8,7 @@ namespace Source.Installers
         public override void InstallBindings()
         {
             Container.Bind<InputHandlingBlocker>().AsSingle();
-            Container.Bind<SceneLoader>().AsSingle();
+            Container.Bind<SceneLoader>().AsSingle().NonLazy();
         }
     }
 }

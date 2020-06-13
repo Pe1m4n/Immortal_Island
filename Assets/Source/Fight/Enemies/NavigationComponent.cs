@@ -15,17 +15,20 @@ namespace Source.Fight.Enemies
         private readonly Transform _mainTransform;
         private readonly Transform _syncTransform;
         private readonly HealthController _healthController;
+        private readonly WinLoseController _winLoseController;
 
         private DestinationPoint _destination;
         private StunComponent _stunComponent;
+        private bool _stopUpdating;
 
         public NavigationComponent(NavMeshAgent agent, IEnumerable<DestinationPoint> destinationPoints,
-            Transform mainTransform, Transform syncTransform,HealthController healthController)
+            Transform mainTransform, Transform syncTransform,HealthController healthController, WinLoseController winLoseController)
         {
             _agent = agent;
             _mainTransform = mainTransform;
             _syncTransform = syncTransform;
             _healthController = healthController;
+            _winLoseController = winLoseController;
 
             var random = new System.Random();
             _destination = destinationPoints.OrderBy(x => random.Next()).First();
@@ -39,6 +42,18 @@ namespace Source.Fight.Enemies
 
         public void Tick()
         {
+            if (_stopUpdating)
+            {
+                return;
+            }
+            
+            if (_agent.hasPath && (_winLoseController.GameLost || _winLoseController.GameWon))
+            {
+                _agent.isStopped = true;
+                _agent.ResetPath();
+                _stopUpdating = true;
+            }
+            
             if (_agent.hasPath && _agent.remainingDistance <= 0.2f)
             {
                 _healthController.DecrementHealth();
