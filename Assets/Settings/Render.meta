@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Settings/Render.meta
 guid: 6422513ae62e0ba44a8172fcf300a17f
+=======
+guid: 2f611853fcba9ac439f2ef90d63f31f6
+>>>>>>> origin/master:Assets/Scenes/FinalIslands/2.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

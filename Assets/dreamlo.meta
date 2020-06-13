@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/dreamlo.meta
 guid: 85f1944da72928941a8d5325f20fc32d
+=======
+guid: 8a90d4d15ccdc56499a2c56ae20c427e
+>>>>>>> origin/master:Assets/Scenes/FinalLevel2.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
