@@ -13,9 +13,6 @@ MonoBehaviour:
   m_Name: ExplosionData
   m_EditorClassIdentifier: 
   _explosionStunRadius: 8
-  _explosionMoveRadius: 8
-  _throwPowerMax: 400
-  _throwPowerMin: 10
-  _movePower: 0.9
+  _throwPower: 200
   _stunDuration: 10
   _upwardsForce: 1
