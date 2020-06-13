@@ -22,7 +22,8 @@ namespace Source.Fight.Enemies
         private bool _stopUpdating;
 
         public NavigationComponent(NavMeshAgent agent, IEnumerable<DestinationPoint> destinationPoints,
-            Transform mainTransform, Transform syncTransform,HealthController healthController, WinLoseController winLoseController)
+            Transform mainTransform, Transform syncTransform,HealthController healthController,
+            WinLoseController winLoseController, GameObject prefab)
         {
             _agent = agent;
             _mainTransform = mainTransform;
