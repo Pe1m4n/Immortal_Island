@@ -1,5 +1,6 @@
 ﻿using Source.Common;
 using Source.Fight.Points;
+using Source.Leaderboard;
 using UnityEngine;
 using Zenject;
 
@@ -16,6 +17,7 @@ namespace Source.Installers
             Container.Bind<NextFightController>().AsSingle();
             Container.Bind<LocationsInfo>().FromInstance(_locations).AsSingle();
             Container.Bind<PointsData>().FromInstance(_pointsData).AsSingle();
+            Container.Bind<PlayerNameHolder>().AsSingle();
         }
     }
 }
