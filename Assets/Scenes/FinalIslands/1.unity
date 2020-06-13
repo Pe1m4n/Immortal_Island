@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 8a3680b353d48bc49a88b1b120b820f3,
     type: 2}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2275,7 +2275,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.016666668
   m_BuildHeightMesh: 0
-  m_NavMeshData: {fileID: 23800000, guid: ae69b91713790284f956734e17a3928c, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: c9c948e53e383f745b577019553fd596, type: 2}
 --- !u!154 &1483480922
 TerrainCollider:
   m_ObjectHideFlags: 0
