@@ -59,7 +59,7 @@ namespace Source.Fight.Enemies
                 _stopUpdating = true;
             }
             
-            if (_agent.hasPath && _agent.remainingDistance <= 0.2f)
+            if (_agent.hasPath && (_mainTransform.position - _destination.transform.position).magnitude <= 0.4f)
             {
                 if (_hitEffect != null)
                 {
