@@ -9,19 +9,22 @@ namespace Source.Fight.World
     public class RoundTimeController : ITickable, IDisposable
     {
         private readonly WinLoseController _winLoseController;
+        private readonly Text _timerText;
         private readonly CompositeDisposable _disposable = new CompositeDisposable();
         public float CurrentTime { get; private set; }
         
         public RoundTimeController(WorldData data, WinLoseController winLoseController, Text timerText)
         {
             _winLoseController = winLoseController;
+            _timerText = timerText;
             CurrentTime = data.RoundTime;
+            UpdateTime();
+            
             Observable.Interval(TimeSpan.FromMilliseconds(1000)).Subscribe(
-                x => 
-            {
-                TimeSpan time = TimeSpan.FromSeconds(CurrentTime);
-                timerText.text = time.ToString(@"mm\:ss");
-            }).AddTo(_disposable);
+                x =>
+                {
+                    UpdateTime();
+                }).AddTo(_disposable);
         }
 
         public void Tick()
@@ -37,6 +40,12 @@ namespace Source.Fight.World
         public void Dispose()
         {
             _disposable?.Dispose();
+        }
+
+        private void UpdateTime()
+        {
+            TimeSpan time = TimeSpan.FromSeconds(CurrentTime);
+            _timerText.text = time.ToString(@"mm\:ss");
         }
     }
 }
