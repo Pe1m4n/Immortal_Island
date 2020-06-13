@@ -12,12 +12,18 @@ EditorBuildSettings:
     path: Assets/Scenes/FinalIslands/1.unity
     guid: f2c6f682221b6f84e9f3117796606c7c
   - enabled: 1
-    path: Assets/Scenes/FinalIslands/Banned/2.unity
-    guid: 50b4684d0ecea9d48a7e87bfc583ffdc
-  - enabled: 1
-    path: Assets/Scenes/FinalIslands/Banned/3.unity
-    guid: df572bedc969d194f86295304503a11b
-  - enabled: 1
     path: Assets/Scenes/FinalIslands/4.unity
     guid: 942d13c25dc470642abb63e5e841b24e
+  - enabled: 1
+    path: Assets/Scenes/FinalIslands/5.unity
+    guid: 6b498d831b79a2a48b139be8ddcc9be1
+  - enabled: 1
+    path: Assets/Scenes/FinalIslands/Temp_1.unity
+    guid: a57a786cec05f7340b0ade7d418f5768
+  - enabled: 1
+    path: Assets/Scenes/FinalIslands/Temp_4.unity
+    guid: 172ea7849a2cde346bdd93a269bb3e30
+  - enabled: 1
+    path: Assets/Scenes/FinalIslands/5_EasterEgg.unity
+    guid: 77decb22ed842a34a927f4e1b4fdc564
   m_configObjects: {}
