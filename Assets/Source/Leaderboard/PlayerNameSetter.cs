@@ -22,6 +22,7 @@ namespace Source.Leaderboard
             if (_nameHolder.SetName(_nameInputField.text))
             {
                 _nextWindow.SetActive(true);
+                gameObject.SetActive(false);
             }
         }
     }
