@@ -15,7 +15,7 @@
 
         public bool IsInputSourceAllowed(InputSource source)
         {
-            return _allowedInputs.HasFlag(source);
+            return true;
         }
     }
 }

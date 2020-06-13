@@ -37,6 +37,7 @@ namespace Source.Leaderboard
             }
 
             PlayerPrefs.SetInt(HIGHEST_LOCAL_SCORE, score);
+            Debug.LogWarning($"Setting score ({score})");
             SendScoreOnline(score);
         }
 
