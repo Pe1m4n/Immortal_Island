@@ -123,7 +123,6 @@ public class dreamloLeaderBoard : MonoBehaviour {
 		}
 	}
 	
-	
 	public string[] ToStringArray()
 	{
 		if (this.highScores == null) return null;

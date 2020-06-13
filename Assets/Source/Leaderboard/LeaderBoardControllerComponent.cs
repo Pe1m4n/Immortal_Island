@@ -1,22 +1,22 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using Zenject;
 
 namespace Source.Leaderboard
 {
     public class LeaderBoardControllerComponent : MonoBehaviour
     {
-        [SerializeField] private dreamloLeaderBoard _leaderBoard;
+        private dreamloLeaderBoard _leaderBoard;
         [SerializeField] private List<LeaderBoardRow> _rows;
 
         private LeaderBoardController _controller;
         private bool _init;
         
         [Inject]
-        public void SetUp(LeaderBoardController controller)
+        public void SetUp(LeaderBoardController controller, dreamloLeaderBoard leaderBoard)
         {
             _controller = controller;
+            _leaderBoard = leaderBoard;
         }
 
         private void Start()

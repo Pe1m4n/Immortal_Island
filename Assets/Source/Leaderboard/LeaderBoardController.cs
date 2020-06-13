@@ -10,12 +10,23 @@ namespace Source.Leaderboard
         public const string PUBLIC_KEY = "5ee4e49a377e860b6c4d8119";
         
         private readonly PlayerNameHolder _nameHolder;
+        private readonly dreamloLeaderBoard _leaderBoard;
 
-        public LeaderBoardController(PlayerNameHolder nameHolder)
+        public int Points { get; set; }
+
+        public LeaderBoardController(PlayerNameHolder nameHolder, dreamloLeaderBoard leaderBoard)
         {
             _nameHolder = nameHolder;
+            _leaderBoard = leaderBoard;
         }
 
+        public void AddPoints(int points)
+        {
+            Points += points;
+            SetScoreToLeaderBoard(Points);
+            _leaderBoard.GetScores();
+        }
+        
         public void SetScoreToLeaderBoard(int score)
         {
             var highestLocalScore =
@@ -32,6 +43,7 @@ namespace Source.Leaderboard
 
         private void SendScoreOnline(int score)
         {
+            _leaderBoard.AddScore(_nameHolder.Name, score);
         }
     }
 }

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8495947976072182313}
   - component: {fileID: 472391775989961551}
   - component: {fileID: 8082388921142673393}
+  - component: {fileID: -8862147883312506467}
   m_Layer: 0
   m_Name: ProjectContext
   m_TagString: Untagged
@@ -75,3 +76,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _locations: {fileID: 11400000, guid: 8b5f29b62d69d054899b847a06e95e5e, type: 2}
   _pointsData: {fileID: 11400000, guid: 967a15fde7f52b141bbcfda19f52f60e, type: 2}
+  _leaderBoard: {fileID: -8862147883312506467}
+--- !u!114 &-8862147883312506467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286617594595909151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f579fefeba774393965b534c29d2e83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IUpgradedAndGotSSL: 0
+  privateCode: vwauURVp-kusVNvKiDBh4Qc_U6SzeuPUaKHf3_upUALQ
+  publicCode: 5ee4e49a377e860b6c4d8119
