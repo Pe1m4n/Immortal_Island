@@ -13,7 +13,7 @@ namespace Source.Common
                 return;
             }
 
-            Instantiate(_gameObject);
+            Instantiate(_gameObject, transform.position, transform.rotation, null);
         }
     }
 }
