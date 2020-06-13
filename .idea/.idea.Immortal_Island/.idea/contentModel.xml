@@ -709,6 +709,9 @@
             <e p="NextFightController.cs" t="Include" />
             <e p="ProjectInstaller.cs" t="Include" />
           </e>
+          <e p="Lobby" t="Include">
+            <e p="LobbyRouteController.cs" t="Include" />
+          </e>
         </e>
         <e p="TutorialInfo" t="Include">
           <e p="Scripts" t="Include">
