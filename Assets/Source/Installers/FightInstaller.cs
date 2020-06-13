@@ -46,6 +46,7 @@ namespace Source.Installers
             Container.Bind<Text>().FromInstance(_timerText).AsCached().WhenInjectedInto<RoundTimeController>();
             Container.Bind<Text>().FromInstance(_healthText).AsCached().WhenInjectedInto<HealthController>();
             Container.Bind<AudioSource>().FromInstance(_sceneMusicSource).AsSingle();
+            Container.BindInterfacesTo<Cheat>().AsSingle().NonLazy();
         }
         
         private void BindEnemyRelatedStuff()
