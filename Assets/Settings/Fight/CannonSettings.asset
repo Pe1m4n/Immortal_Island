@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 861f4a156a0a4ac1ae9a10f8ba4bd9e4, type: 3}
   m_Name: CannonSettings
   m_EditorClassIdentifier: 
-  _maxDistance: 8
+  _maxDistance: 55
   _acceleration: 1
   _reloadSeconds: 1
   _explosionDelayMin: 0
