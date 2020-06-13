@@ -8,12 +8,15 @@ namespace Source.Fight.World
         private readonly GameObject _winScreen;
         private readonly GameObject _loseScreen;
         private readonly InputHandlingBlocker _inputHandlingBlocker;
+        private readonly AudioSource _sceneMusicSource;
 
-        public WinLoseController(GameObject winScreen, GameObject loseScreen, InputHandlingBlocker inputHandlingBlocker)
+        public WinLoseController(GameObject winScreen, GameObject loseScreen,
+            InputHandlingBlocker inputHandlingBlocker, AudioSource sceneMusicSource)
         {
             _winScreen = winScreen;
             _loseScreen = loseScreen;
             _inputHandlingBlocker = inputHandlingBlocker;
+            _sceneMusicSource = sceneMusicSource;
         }
         
         public bool GameWon { get; set; }
@@ -24,6 +27,7 @@ namespace Source.Fight.World
             GameWon = true;
             _winScreen.SetActive(true);
             _inputHandlingBlocker.SetAllowedInputs(InputSource.None);
+            _sceneMusicSource.Stop();
         }
 
         public void Lose()
@@ -31,6 +35,7 @@ namespace Source.Fight.World
             GameLost = true;
             _loseScreen.SetActive(true);
             _inputHandlingBlocker.SetAllowedInputs(InputSource.None);
+            _sceneMusicSource.Stop();
         }
     }
 }

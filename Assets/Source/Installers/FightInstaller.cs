@@ -16,6 +16,7 @@ namespace Source.Installers
         [SerializeField] private SpawnZone _spawnZone;
         [SerializeField] private List<DestinationPoint> _destinationPoints;
         [SerializeField] private WorldData _worldData;
+        [SerializeField] private AudioSource _sceneMusicSource;
 
         [Header("UI")] [SerializeField] private Text _timerText;
         [SerializeField] private Text _healthText;
@@ -40,6 +41,7 @@ namespace Source.Installers
 
             Container.Bind<Text>().FromInstance(_timerText).AsCached().WhenInjectedInto<RoundTimeController>();
             Container.Bind<Text>().FromInstance(_healthText).AsCached().WhenInjectedInto<HealthController>();
+            Container.Bind<AudioSource>().FromInstance(_sceneMusicSource).AsSingle();
         }
         
         private void BindEnemyRelatedStuff()
