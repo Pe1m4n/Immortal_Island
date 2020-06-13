@@ -58,6 +58,7 @@ namespace Source.Fight.World
             _inputHandlingBlocker.SetAllowedInputs(InputSource.None);
             _sceneMusicSource.Stop();
             _pointsController.StopAddingPoints();
+            _pointsController.ResetPoints();
         }
     }
 }

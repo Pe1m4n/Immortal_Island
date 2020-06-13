@@ -49,6 +49,11 @@ namespace Source.Fight.Points
         {
             _leaderBoardController.AddPoints(Points);
         }
+        
+        public void ResetPoints()
+        {
+            Points = _leaderBoardController.Points;
+        }
 
         public void Dispose()
         {

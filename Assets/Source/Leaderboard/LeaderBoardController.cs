@@ -24,7 +24,6 @@ namespace Source.Leaderboard
         {
             Points += points;
             SetScoreToLeaderBoard(Points);
-            _leaderBoard.GetScores();
         }
         
         public void SetScoreToLeaderBoard(int score)
