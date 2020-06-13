@@ -15,7 +15,8 @@ namespace Source.Fight.Enemies
         [SerializeField] private Animator _animator;
         [SerializeField] private Transform _syncTransform;
         [SerializeField] private GameObject _hitEffect;
-
+        [SerializeField] private UnityEvent _onStun;
+        
         public AnimationComponent AnimationComponent { get; private set; }
         public StunComponent StunComponent { get; private set; }
         public PhysicsComponent PhysicsComponent { get; private set; }
@@ -29,7 +30,7 @@ namespace Source.Fight.Enemies
             AnimationComponent = new AnimationComponent(_animator);
             NavigationComponent = new NavigationComponent(_navMeshAgent, destinations, transform, _syncTransform, healthController, winLoseController, _hitEffect, instantiator);
             PhysicsComponent = new PhysicsComponent(gameObject.GetComponentsInChildren<Rigidbody>(), AnimationComponent, NavigationComponent);
-            StunComponent = new StunComponent(PhysicsComponent);
+            StunComponent = new StunComponent(PhysicsComponent, _onStun);
             NavigationComponent.Init(StunComponent);
         }
         
