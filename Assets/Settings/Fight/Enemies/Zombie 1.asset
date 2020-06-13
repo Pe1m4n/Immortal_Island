@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Zombie 1
   m_EditorClassIdentifier: 
   _name: Zombie 1
-  _prefab: {fileID: 1247714770868203041, guid: 09796a26dba66d64683aaa5ef2013377, type: 3}
+  _prefab: {fileID: 4464888191511200400, guid: 2dfeedffba60f4f478cfcda3a94c17ec, type: 3}
