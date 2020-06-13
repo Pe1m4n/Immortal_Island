@@ -55926,7 +55926,7 @@ MonoBehaviour:
   _destinationPoints:
   - {fileID: 344915004024880567}
   - {fileID: 344915002678853105}
-  _worldData: {fileID: 11400000, guid: d2856d71b0d087f49b9e1b91317075fa, type: 2}
+  _worldData: {fileID: 11400000, guid: 8edca6068ec02de40a08da2e445aaaa5, type: 2}
   _sceneMusicSource: {fileID: 1892120202}
   _timerText: {fileID: 2033998186}
   _healthText: {fileID: 577946286}
