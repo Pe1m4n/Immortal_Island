@@ -3,6 +3,7 @@ using Source.Fight;
 using Source.Fight.Enemies;
 using Source.Fight.World;
 using UnityEngine;
+using UnityEngine.UI;
 using Zenject;
 
 namespace Source.Installers
@@ -14,6 +15,9 @@ namespace Source.Installers
         [SerializeField] private List<EnemyData> _enemiesData;
         [SerializeField] private SpawnZone _spawnZone;
         [SerializeField] private List<DestinationPoint> _destinationPoints;
+        [SerializeField] private WorldData _worldData;
+
+        [Header("UI")] [SerializeField] private Text _timerText;
 
         public override void InstallBindings()
         {
@@ -21,8 +25,19 @@ namespace Source.Installers
 
             BindEnemyRelatedStuff();
             InjectDependenciesToPrefabs();
+            BindWorldRules();
         }
 
+        private void BindWorldRules()
+        {
+            Container.Bind<WorldData>().FromInstance(_worldData).AsSingle();
+            Container.BindInterfacesTo<RoundTimeController>().AsSingle();
+            Container.Bind<WinLoseController>().AsSingle();
+            Container.Bind<HealthController>().AsSingle();
+
+            Container.Bind<Text>().FromInstance(_timerText).AsSingle().WhenInjectedInto<RoundTimeController>();
+        }
+        
         private void BindEnemyRelatedStuff()
         {
             var enemiesDict = new Dictionary<string, EnemyData>();

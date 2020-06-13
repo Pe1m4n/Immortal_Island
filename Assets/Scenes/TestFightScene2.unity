@@ -59006,6 +59006,8 @@ MonoBehaviour:
   _destinationPoints:
   - {fileID: 344915004024880567}
   - {fileID: 344915002678853105}
+  _worldData: {fileID: 11400000, guid: 7b2593d8853804f43bd40b1fc297f686, type: 2}
+  _timerText: {fileID: 1195935774}
 --- !u!1 &344915004344308179
 GameObject:
   m_ObjectHideFlags: 0
